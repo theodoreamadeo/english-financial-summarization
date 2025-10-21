@@ -1,0 +1,726 @@
+{
+  "overall_score": 0.5526,
+  "section_scores": {
+    "1.1": 1.0,
+    "1.2": 0.2,
+    "1.3": 0.6667,
+    "2.1": 0.875,
+    "2.2": 1.0,
+    "2.3": 0.8,
+    "2.4": 0.25,
+    "2.5": 1.0,
+    "3.1": 0.1667,
+    "3.2": 0.0,
+    "3.3": 0.9,
+    "4.1": 0.25,
+    "5.1": 0.0,
+    "5.2": 0.3333,
+    "6.1": 0.8333,
+    "6.2": 0.75,
+    "6.3": 0.5
+  },
+  "items": [
+    {
+      "id": "1.1.1",
+      "section": "Basic Information - Company Name",
+      "submitted_answer": "CSL Limited",
+      "ground_truth": "CSL Limited",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly."
+    },
+    {
+      "id": "1.1.2",
+      "section": "Basic Information - Establishment Date",
+      "submitted_answer": "1916 (as Commonwealth Serum Laboratories)",
+      "ground_truth": "1916",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer provides the correct establishment date of 1916, which matches the ground truth exactly."
+    },
+    {
+      "id": "1.1.3",
+      "section": "Basic Information - Headquarters Location (CIty and Country)",
+      "submitted_answer": "Melbourne, Australia",
+      "ground_truth": "Melbourne, Australia",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both city and country."
+    },
+    {
+      "id": "1.2.1",
+      "section": "Core Competencies - Innovation Advantages",
+      "submitted_answer": "CSL's innovation is driven by its R&D organization with 2,500+ employees in 10 countries, leveraging strategic scientific platforms (plasma protein, recombinant protein, cell & gene therapy, vaccines technology) and external collaborations (e.g., Brandon Capital, BaseLaunch, Biopôle SA, Arcturus Therapeutics). Key achievements include the first FDA-approved gene therapy for haemophilia B (HEMGENIX®) and the world's first sa-mRNA COVID-119 vaccine (KOSTAIVE®).",
+      "ground_truth": "CSL maintains a strong innovation edge through significant R&D investment (US$1.43 billion in 2023/24), a robust pipeline in disruptive technologies (e.g., next-gen mRNA, gene/cell therapies), and digital transformation initiatives. The company leverages partnerships, digital tools, AI, and automation to accelerate development and productivity, and continuously upskills its workforce to adapt to new scientific and digital demands.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not mention CSL's R&D investment amount, the focus on disruptive technologies like next-gen mRNA, or digital transformation initiatives. It also incorrectly states the name of the COVID-19 vaccine as KOSTAIVE® instead of the correct name."
+    },
+    {
+      "id": "1.2.2",
+      "section": "Core Competencies - Product Advantages",
+      "submitted_answer": "CSL offers a dynamic portfolio of lifesaving medicines across immunology, haematology, nephrology, and vaccines. Key products include immunoglobulins (PRIVIGEN®, HIZENTRA®), haemophilia treatments (IDELVION®, HEMGENIX®), influenza vaccines (FLUAD®, FLUCELVAX®), and iron/nephrology therapies (FERINJECT®, KORSUVA®, TAVNEOS®). The portfolio is continuously expanded with new registrations and indications globally.",
+      "ground_truth": "CSL’s product advantages include leadership in plasma-derived therapies, recombinant proteins, cell/gene therapies, and vaccines (notably influenza). The company’s broad, differentiated portfolio addresses unmet needs in multiple therapeutic areas, supported by a global manufacturing network and high standards for quality and safety. Ongoing investment in product lifecycle management and new product development ensures reliable supply and continuous improvement.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer focuses on specific products and therapeutic areas but does not mention CSL's leadership in plasma-derived therapies, recombinant proteins, or cell/gene therapies, nor does it address the company's global manufacturing network, quality standards, or ongoing investment in product lifecycle management."
+    },
+    {
+      "id": "1.2.3",
+      "section": "Core Competencies - Brand Recognition",
+      "submitted_answer": "CSL is recognized as a global biotechnology leader providing lifesaving products to patients in over 100 countries, with strong brand recognition for its CSL Behring, CSL Seqirus, and CSL Vifor businesses. Its values-driven culture and commitment to patient focus enhance its reputation.",
+      "ground_truth": "CSL is recognized globally as a biotechnology leader, providing life-saving products in over 100 countries. Its long history, global reach, and consistent delivery of innovative therapies have established it as a trusted partner. The company’s values-driven culture and recognition in industry rankings further reinforce its brand presence.",
+      "score": 0.8,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer captures the essence of CSL's brand recognition and its global presence, but it lacks mention of its long history and consistent delivery of innovative therapies, which are key aspects of the ground truth."
+    },
+    {
+      "id": "1.2.4",
+      "section": "Core Competencies - Reputation Ratings",
+      "submitted_answer": "CSL is ranked among the best large employers in America by Forbes magazine and named to Forbes Global 2000. It is also among Work180 Top Workplaces for Women in Australia and Prosple Top 100 Graduate Employers in Australia.",
+      "ground_truth": "CSL’s reputation is built on its commitment to patient safety, product quality, ethical business practices, and sustainability. The company is frequently audited, adheres to international standards, and maintains robust risk management. High employee engagement and recognition for diversity and inclusion further enhance its reputation.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer focuses on rankings and awards rather than the core competencies related to patient safety, product quality, ethical practices, and sustainability as outlined in the ground truth."
+    },
+    {
+      "id": "1.3.1",
+      "section": "Mission & Vision - Mission Statement",
+      "submitted_answer": "The people and science of CSL save lives. CSL develops and delivers innovative medicines that help people with serious and life-threatening conditions live full lives, and protects the health of communities around the world.",
+      "ground_truth": "The people and science of CSL save lives. CSL develops and delivers innovative medicines that help people with serious and life-threatening conditions live full lives, and protects the health of communities around the world.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly without any differences."
+    },
+    {
+      "id": "1.3.2",
+      "section": "Mission & Vision - Vision Statement",
+      "submitted_answer": "A healthier world that enriches all our communities.",
+      "ground_truth": "CSL is committed to a healthier world. Its vision is a sustainable future for its employees, communities, patients and donors, inspired by innovative science and a values-driven culture",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not match the ground truth in content or detail. The ground truth specifies a commitment to a sustainable future for various stakeholders and emphasizes innovative science and a values-driven culture, which are not reflected in the submitted answer."
+    },
+    {
+      "id": "1.3.3",
+      "section": "Mission & Vision - Core Value",
+      "submitted_answer": "Patient Focus, Integrity, Innovation, Superior Performance, Collaboration",
+      "ground_truth": "Patient Focus, Integrity, Innovation, Superior Performance, Collaboration",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of content and order."
+    },
+    {
+      "id": "2.1.1",
+      "section": "Income Statement - Revenue",
+      "submitted_answer": "14259",
+      "ground_truth": "14,800",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 14259 does not match the ground truth of 14800, and the difference exceeds the allowed tolerance."
+    },
+    {
+      "id": "2.1.2",
+      "section": "Income Statement - Cost of Goods Sold (COGS)",
+      "submitted_answer": "(7129)",
+      "ground_truth": "(7,129)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer (7129) is numerically equivalent to the ground truth (7,129), as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.1.3",
+      "section": "Income Statement - Gross Profit",
+      "submitted_answer": "7671",
+      "ground_truth": "7,671",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '7671' is numerically equivalent to the ground truth '7,671', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.1.4",
+      "section": "Income Statement - Operating Expenses",
+      "submitted_answer": "(3859)",
+      "ground_truth": "(3,859)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer (3859) is numerically equivalent to the ground truth (3,859) despite the difference in formatting with the comma."
+    },
+    {
+      "id": "2.1.5",
+      "section": "Income Statement - Operating Income",
+      "submitted_answer": "3812",
+      "ground_truth": "3,812",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '3812' is numerically equivalent to the ground truth '3,812', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.1.6",
+      "section": "Income Statement - Net Income",
+      "submitted_answer": "2714",
+      "ground_truth": "2,714",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '2714' is numerically equivalent to the ground truth '2,714', as the difference is only in formatting (comma usage)."
+    },
+    {
+      "id": "2.1.7",
+      "section": "Income Statement - Income before income taxes",
+      "submitted_answer": "3375",
+      "ground_truth": "3,375",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '3375' is numerically equivalent to the ground truth '3,375', as the difference is only in the formatting (comma vs. no comma)."
+    },
+    {
+      "id": "2.1.8",
+      "section": "Income Statement - Income tax expense (benefit)",
+      "submitted_answer": "(661)",
+      "ground_truth": "(661)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly, including the numeric value and sign."
+    },
+    {
+      "id": "2.2.1",
+      "section": "Balance Sheet - Total Assets",
+      "submitted_answer": "38022",
+      "ground_truth": "38,022",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '38022' is numerically equivalent to the ground truth '38,022', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.2.2",
+      "section": "Balance Sheet - Current Assets",
+      "submitted_answer": "10768",
+      "ground_truth": "10,768",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '10768' is numerically identical to the ground truth '10,768', disregarding the formatting with a comma."
+    },
+    {
+      "id": "2.2.3",
+      "section": "Balance Sheet - Non-Current Assets",
+      "submitted_answer": "27254",
+      "ground_truth": "27,254",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '27254' is equivalent to the ground truth '27,254' when considering numeric formatting, as both represent the same value."
+    },
+    {
+      "id": "2.2.4",
+      "section": "Balance Sheet - Total Liabilities",
+      "submitted_answer": "18621",
+      "ground_truth": "18,621",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '18621' is equivalent to the ground truth '18,621' when considering numeric formatting, as both represent the same total liabilities value."
+    },
+    {
+      "id": "2.2.5",
+      "section": "Balance Sheet - Current Liabilities",
+      "submitted_answer": "4950",
+      "ground_truth": "4,950",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '4950' is numerically equivalent to the ground truth '4,950', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.2.6",
+      "section": "Balance Sheet - Non-Current Liabilities",
+      "submitted_answer": "13671",
+      "ground_truth": "13,671",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '13671' is equivalent to the ground truth '13,671' when considering numeric formatting, as the absence of a comma does not change the value."
+    },
+    {
+      "id": "2.2.7",
+      "section": "Balance Sheet - Shareholders' Equity",
+      "submitted_answer": "17363",
+      "ground_truth": "17,363",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '17363' is numerically identical to the ground truth '17,363', disregarding the formatting of the comma."
+    },
+    {
+      "id": "2.2.8",
+      "section": "Balance Sheet - Retained Earnings",
+      "submitted_answer": "16012",
+      "ground_truth": "16,012",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '16012' is numerically equivalent to the ground truth '16,012', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.2.9",
+      "section": "Balance Sheet - Total Equity and Liabilities",
+      "submitted_answer": "38022",
+      "ground_truth": "38,022",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '38022' is numerically equivalent to the ground truth '38,022', as the absence of a comma does not affect the value."
+    },
+    {
+      "id": "2.2.10",
+      "section": "Balance Sheet - Inventories",
+      "submitted_answer": "5964",
+      "ground_truth": "5,964",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '5964' is numerically identical to the ground truth '5,964', disregarding the formatting with a comma."
+    },
+    {
+      "id": "2.2.11",
+      "section": "Balance Sheet - Prepaid Expenses",
+      "submitted_answer": "254",
+      "ground_truth": "254",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly."
+    },
+    {
+      "id": "2.3.1",
+      "section": "Cash Flow Statement - Net Cash Flow from Operations",
+      "submitted_answer": "2764",
+      "ground_truth": "2,764",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '2764' is equivalent to the ground truth '2,764' when considering numeric formatting, as both represent the same value."
+    },
+    {
+      "id": "2.3.2",
+      "section": "Cash Flow Statement - Net Cash Flow from Investing",
+      "submitted_answer": "(1259)",
+      "ground_truth": "(1,259)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer (1259) is numerically equivalent to the ground truth (1,259), differing only in formatting, which does not affect the value."
+    },
+    {
+      "id": "2.3.3",
+      "section": "Cash Flow Statement - Net Cash Flow from Financing",
+      "submitted_answer": "(1284)",
+      "ground_truth": "(1,284)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer (1284) is numerically equivalent to the ground truth (1,284), as both represent the same value despite the formatting difference."
+    },
+    {
+      "id": "2.3.4",
+      "section": "Cash Flow Statement - Net Increase/Decrease in Cash",
+      "submitted_answer": "221",
+      "ground_truth": "221",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.3.5",
+      "section": "Cash Flow Statement - Dividends",
+      "submitted_answer": "(1192)",
+      "ground_truth": "(1,239)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer (1192) does not match the ground truth (1,239) and is outside the acceptable numeric tolerance."
+    },
+    {
+      "id": "2.4.1",
+      "section": "Key Financial Metrics - Gross Margin = (Revenue − COGS) ÷ Revenue",
+      "submitted_answer": "51.83%",
+      "ground_truth": "51.8%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer of 51.83% is within the acceptable numeric tolerance of the ground truth value of 51.8%."
+    },
+    {
+      "id": "2.4.2",
+      "section": "Key Financial Metrics - Operating Margin = Operating Income ÷ Revenue",
+      "submitted_answer": "25.76%",
+      "ground_truth": "25.77%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 25.76% is not within the acceptable tolerance of the ground truth value of 25.77%."
+    },
+    {
+      "id": "2.4.3",
+      "section": "Key Financial Metrics - Net Profit Margin = Net Income ÷ Revenue",
+      "submitted_answer": "18.34%",
+      "ground_truth": "18.34%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly at 18.34%."
+    },
+    {
+      "id": "2.4.4",
+      "section": "Key Financial Metrics - Current Ratio = Current Assets ÷ Current Liabilities",
+      "submitted_answer": "2.17",
+      "ground_truth": "217.54%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 2.17 does not match the ground truth of 217.54%, which indicates a significant difference in the representation of the current ratio (percentage vs. decimal)."
+    },
+    {
+      "id": "2.4.5",
+      "section": "Key Financial Metrics - Quick Ratio = (Current Assets − Inventories − Prepaid expenses) ÷ Current Liabilities",
+      "submitted_answer": "0.92",
+      "ground_truth": "91.92%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer is in decimal form (0.92) while the ground truth is in percentage form (91.92%). The values are not equivalent, leading to an incorrect score."
+    },
+    {
+      "id": "2.4.6",
+      "section": "Key Financial Metrics - Interest Coverage = Operating Income ÷ Interest Expense",
+      "submitted_answer": "7.99",
+      "ground_truth": "801.68%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 7.99 does not match the ground truth of 801.68%, which indicates a significant discrepancy in the calculation or interpretation of the interest coverage ratio."
+    },
+    {
+      "id": "2.4.7",
+      "section": "Key Financial Metrics - Asset Turnover = Revenue ÷ Average Total Assets",
+      "submitted_answer": "0.40",
+      "ground_truth": "40.0%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 0.40 is not equivalent to the ground truth of 40.0%, as 0.40 represents 40% in decimal form but is not presented in the correct percentage format."
+    },
+    {
+      "id": "2.4.8",
+      "section": "Key Financial Metrics - Debt-to-Equity = Total Liabilities ÷ Shareholders’ Equity",
+      "submitted_answer": "0.64",
+      "ground_truth": "107.25%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 0.64 does not match the ground truth of 107.25%, which indicates a significant discrepancy in the calculation of the Debt-to-Equity ratio."
+    },
+    {
+      "id": "2.4.9",
+      "section": "Key Financial Metrics - Return on Equity (RoE) = Net Income ÷ Average Shareholders’ Equity",
+      "submitted_answer": "15.59%",
+      "ground_truth": "14.58%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 15.59% does not match the ground truth of 14.58%."
+    },
+    {
+      "id": "2.4.10",
+      "section": "Key Financial Metrics - Return on Assets (RoA) = Net Income ÷ Average Total Assets",
+      "submitted_answer": "7.29%",
+      "ground_truth": "7.3%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer of 7.29% is within the acceptable tolerance range of the ground truth value of 7.3%."
+    },
+    {
+      "id": "2.4.11",
+      "section": "Key Financial Metrics - Effective Tax Rate = Income tax expense (benefit) ÷ Income before income taxes",
+      "submitted_answer": "19.58%",
+      "ground_truth": "19.59%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 19.58% does not match the ground truth of 19.59%, exceeding the allowed tolerance."
+    },
+    {
+      "id": "2.4.12",
+      "section": "Key Financial Metrics - Dividend Payout Ratio = Dividends ÷ Net Income",
+      "submitted_answer": "43.92%",
+      "ground_truth": "45.65%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 43.92% does not match the ground truth of 45.65%, indicating a complete discrepancy in the value."
+    },
+    {
+      "id": "2.5.1",
+      "section": "Operating Performance - Revenue by Product/Service: What is the revenue breakdown by product/service?",
+      "submitted_answer": "CSL Behring: Immunoglobulins: $5,666m, Albumin: $1,209m, Haemophilia: $1,313m, Specialty: $1,940m, Other: $441m. CSL Seqirus: Egg based vaccines: $140m, Cell culture vaccines: $535m, Adjuvanted egg based vaccines: $1,040m, Pandemic: $172m, Other (including in-license): $181m. CSL Vifor: Iron: $1,018m, Nephrology - Dialysis: $786m, Nephrology - Non-Dialysis: $200m, Other: $49m.",
+      "ground_truth": "Immunoglobulins: 5,666, Albumin: 1,209, Haemophilia: 1,313, Specialty: 1,940, Other: 441, Egg based vaccines: 140, Cell culture vaccines: 535, Adjuvanted egg based vaccines: 1,040, Pandemic: 172, Other (including in-license): 181, Iron: 1,018, Nephrology - Dialysis: 786, Nephrology - Non-Dialysis: 200, Other: 49",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of product/service revenue breakdown, including numeric values and order."
+    },
+    {
+      "id": "2.5.2",
+      "section": "Operating Performance - Revenue by Geographic Region: What is the revenue breakdown by geographic region?",
+      "submitted_answer": "Australia: $900m, United States: $7,294m, Germany: $873m, UK: $744m, Switzerland: $318m, China and Hong Kong: $747m, Rest of World: $3,924m.",
+      "ground_truth": "Australia: 900, United States: 7,294, Germany: 873, UK: 744, Switzerland: 318, China and Hong Kong: 747, Rest of World: 3,924",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of numeric values and regions, with correct formatting and no discrepancies."
+    },
+    {
+      "id": "3.1.1",
+      "section": "Profitability Analysis  - Revenue & Direct-Cost Dynamics",
+      "submitted_answer": "Revenue Growth: Total operating revenue increased from US$13,310 million in 2023 to US$14,800 million in 2024, representing a growth of 11.2%. Gross Margin: Gross profit increased from US$6,825 million in 2023 to US$7,671 million in 2024. The gross profit margin remained relatively stable at approximately 51.8% in 2024 (US$7,671m / US$14,800m) compared to 51.3% in 2023 (US$6,844m / US$13,310m). Revenue by Product/Service: Immunoglobulins revenue grew significantly from US$4,675 million to US$5,666 million. Albumin also saw growth from US$1,109 million to US$1,209 million. Haemophilia products increased from US$1,193 million to US$1,313 million. CSL Seqirus' adjuvanted egg-based vaccines grew from US$893 million to US$1,040 million. CSL Vifor's iron products increased from US$1,009 million to US$1,018 million. Revenue by Geographic Region: The United States remained the largest revenue contributor, growing from US$6,563 million to US$7,294 million. Rest of World showed substantial growth from US$2,849 million to US$3,924 million. Australia's revenue decreased from US$1,045 million to US$900 million.",
+      "ground_truth": "CSL demonstrated strong revenue growth over the three-year period, with 26.0% growth from 2022 to 2023 ($10,562M to $13,310M) followed by 11.2% growth from 2023 to 2024 ($13,310M to $14,800M). However, gross margin declined from 54.3% in 2022 to 51.3% in 2023, with modest recovery to 51.8% in 2024, indicating cost pressures despite revenue growth. Immunoglobulins remains the largest revenue driver, growing from $4,024M in 2022 to $5,666M in 2024. Geographically, the United States is the dominant market, expanding from $5,124M in 2022 to $7,294M in 2024, while other regions showed mixed performance with Rest of World segment nearly doubling from $2,013M to $3,924M.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The revenue growth figures from 2023 to 2024 and the gross profit margin for 2024 are correct. However, the gross profit margin for 2023 is incorrectly calculated, and the revenue figures for Immunoglobulins and the United States are inconsistent with the ground truth. The revenue by geographic region is also missing the 2022 figures for comparison."
+    },
+    {
+      "id": "3.1.2",
+      "section": "Profitability Analysis  - Operating Efficiency",
+      "submitted_answer": "Operating Margin: Operating profit (EBIT) increased from US$3,069 million in 2023 to US$3,812 million in 2024. The operating margin improved from 23.1% (US$3,069m / US$13,310m) in 2023 to 25.8% (US$3,812m / US$14,800m) in 2024, indicating enhanced operating efficiency. This improvement was driven by strong performance across CSL Behring's portfolio, especially immunoglobulins, and solid growth from CSL Seqirus. Cost of Sales: Cost of sales increased from US$6,485 million in 2023 to US$7,129 million in 2024, but at a slower rate than revenue growth, contributing to the stable gross margin. Operating Expenses: Research and development expenses increased from US$1,269 million to US$1,430 million. Selling and marketing expenses increased from US$1,481 million to US$1,573 million. General and administration expenses decreased from US$1,006 million to US$856 million, indicating cost control in this area.",
+      "ground_truth": "Operating efficiency showed volatility over the period, with operating margin declining from 27.72% in 2022 to 23.06% in 2023, then recovering to 25.77% in 2024, though still below 2022 levels. Despite margin pressure, absolute operating income grew consistently from $2,927M in 2022 to $3,069M in 2023 and $3,812M in 2024, indicating effective cost management relative to revenue expansion. Operating expenses increased from $2,805M in 2022 to $3,859M in 2024, but the growth rate was controlled relative to revenue increases, demonstrating operational leverage benefits as the company scaled.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect operating margin values for 2023 and 2024, and it does not mention the decline from 2022 to 2023. Additionally, the total operating expenses and their growth rates are not accurately represented compared to the ground truth."
+    },
+    {
+      "id": "3.1.3",
+      "section": "Profitability Analysis  - External & One-Off Impact",
+      "submitted_answer": "Effective Tax Rate: The effective tax rate decreased from 15.7% (US$419m / US$2,663m) in 2023 to 19.6% (US$661m / US$3,375m) in 2024. Non-Recurring Items: The unwind of CSL Vifor inventory fair value uplift decreased from US$169 million in 2023 to US$30 million in 2024. CSL Vifor acquisition and integration costs decreased from US$184 million in 2023 to US$54 million in 2024. These non-recurring items had a diminishing impact on profitability in 2024 compared to 2023.",
+      "ground_truth": "The effective tax rate exhibited significant volatility, dropping from 18.90% in 2022 to 15.74% in 2023, then spiking to 19.59% in 2024, creating earnings volatility beyond operational performance. This tax rate fluctuation had material impact on net profitability, with income tax expense increasing from $525M in 2022 to $661M in 2024 despite the intermediate drop in 2023. The tax burden growth outpaced income growth, contributing to net profit margin compression from 21.37% in 2022 to 18.34% in 2024. Information regarding non-recurring items is not explicitly detailed in the provided financial statements, limiting analysis of one-time impacts on profitability.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect effective tax rates for 2023 and 2024, and it misrepresents the trend and impact of non-recurring items. The ground truth specifies different values and trends that do not match the submitted figures."
+    },
+    {
+      "id": "3.2.1",
+      "section": "Financial Performance Summary - Comprehensive financial health",
+      "submitted_answer": "The company's comprehensive financial health shows continued growth in total assets, reaching US$38,022 million from US$36,234 million in 2023. However, total liabilities also increased to US$18,621 million from US$18,408 million, leading to an increase in net assets to US$19,401 million from US$17,826 million. Equity attributable to shareholders of CSL Limited grew to US$17,363 million from US$15,786 million. The non-controlling interests remained stable at US$2,038 million.",
+      "ground_truth": "CSL demonstrates robust financial health with total assets growing from $36,234M in 2023 to $38,022M in 2024, representing 4.9% growth. Shareholders' equity increased significantly from $15,786M in 2023 to $17,363M in 2024, strengthening the balance sheet foundation. The company maintained strong liquidity with current ratio of 217.6% compared to 200.9% in 2023. However, there was a notable shift in asset composition with current assets increasing while non-current assets remained relatively stable. Cash flow from operations remained healthy at $2,764M in 2024 versus $2,601M in 2023, indicating consistent operational cash generation capability.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect year references (2023 instead of 2024) and omits key financial metrics such as the current ratio and cash flow from operations, which are essential for a comprehensive financial health summary."
+    },
+    {
+      "id": "3.2.2",
+      "section": "Financial Performance Summary - Profitabilitiy and earnings quality",
+      "submitted_answer": "Profitability and earnings quality improved significantly in 2024. Net profit for the year attributable to shareholders of CSL Limited increased to US$2,642 million from US$2,194 million in 2023, representing a 20.4% growth. Basic earnings per share (EPS) rose to US$5.47 from US$4.55. The operating margin improved to 25.8% from 23.1%, indicating better operational efficiency. The effective tax rate increased to 19.6% from 15.7%.",
+      "ground_truth": "Profitability metrics showed mixed but generally positive trends in 2024. Net profit increased from $2,244M in 2023 to $2,714M in 2024, representing 20.9% growth and demonstrating strong earnings momentum. Net profit margin improved from 16.87% to 18.34%, while ROE increased from 13.85% to 14.58% and ROA from 7.0% to 7.3%, indicating enhanced efficiency in generating returns. However, earnings quality faced some pressure from higher effective tax rates, rising from 15.74% in 2023 to 19.59% in 2024. The dividend payout ratio decreased from 48.36% to 43.93%, suggesting management's confidence in retaining earnings for growth while maintaining shareholder returns.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect figures for net profit, growth percentage, and the effective tax rate. The net profit was reported as US$2,642 million instead of US$2,714 million, and the growth was stated as 20.4% instead of 20.9%. Additionally, the effective tax rate was incorrectly reported as 19.6% instead of 19.59%. Other metrics such as net profit margin, ROE, and ROA were not mentioned at all."
+    },
+    {
+      "id": "3.2.3",
+      "section": "Financial Performance Summary - Operational efficiency",
+      "submitted_answer": "Operational efficiency continued to improve in 2024. The operating margin increased to 25.8% from 23.1% in 2023. Cash flow from operating activities increased to US$2,764 million from US$2,601 million, demonstrating strong cash generation. The ratio of operating cash flow to net profit improved, indicating higher quality earnings.",
+      "ground_truth": "Operational efficiency showed improvement in 2024 with operating margin recovering to 25.77% from 23.06% in 2023, though still below optimal levels. Operating income grew strongly from $3,069M to $3,812M, representing 24.2% growth and outpacing revenue growth of 11.2%. Operating expenses increased from $3,756M to $3,859M, but the controlled 2.7% growth rate demonstrated effective cost management. Asset turnover remained relatively stable at 40.0% versus 41.2%, indicating consistent asset utilization efficiency. The company demonstrated operational leverage with operating income growth significantly exceeding expense growth.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect values for operating margin (25.8% vs 25.77%), cash flow from operating activities (US$2,764 million vs US$3,069 million), and does not mention operating income or expenses, which are critical to the financial performance summary."
+    },
+    {
+      "id": "3.2.4",
+      "section": "Financial Performance Summary - Financial risk identification and early warning",
+      "submitted_answer": "Financial risk indicators show a mixed picture. Interest-bearing liabilities and borrowings increased slightly to US$12,183 million from US$12,227 million in 2023. The finance costs remained high at US$476 million, indicating continued debt servicing burden. The increase in net assets and equity provides a buffer against financial risks, but the overall debt level remains substantial.",
+      "ground_truth": "Financial risk profile remained manageable in 2024 with several positive indicators. Debt-to-equity ratio improved from 103.26% in 2023 to 95.98% in 2024, indicating reduced leverage and strengthened capital structure. Interest coverage ratio increased from 691.22% to 801.68%, demonstrating enhanced ability to service debt obligations. However, interest expenses continued rising from $444M to $476M, reflecting higher debt costs. Current ratio improved from 200.9% to 217.6%, but quick ratio improved from 75.6% to 91.9%, indicating enhanced liquidity with improved coverage of short-term liabilities. The negative net cash decrease of $8,786M in 2023 reversed to a positive $221M in 2024, suggesting improved cash management and reduced capital deployment pressure.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect figures and does not match the ground truth. It incorrectly states the interest-bearing liabilities and borrowings as increasing slightly, while the ground truth indicates a specific improvement in the debt-to-equity ratio and interest coverage ratio. Additionally, the submitted answer lacks key metrics such as the current ratio, quick ratio, and net cash changes, which are essential for a complete financial risk summary."
+    },
+    {
+      "id": "3.2.5",
+      "section": "Financial Performance Summary - Future financial performance projection",
+      "submitted_answer": "The company's future financial performance is projected to be strong, driven by continued investment in R&D (US$1,430 million) and capital expenditure (US$849 million for PPE, US$409 million for intangibles). The positive outlook for CSL Behring, CSL Seqirus, and CSL Vifor, coupled with record plasma collections and new product launches, supports sustained growth. The dividend payout of US$2.64 per share for 2024 reflects confidence in future earnings.",
+      "ground_truth": "The 2024 performance trajectory suggests positive momentum for future periods. Revenue growth moderated to 11.2% from the exceptional 26.0% in the prior year, indicating a more sustainable growth pattern. The recovery in operating margins to 25.77% and strong operating leverage demonstrated suggests potential for continued profitability improvements. Strong cash generation from operations at $2,764M provides adequate funding for growth investments and shareholder returns. The immunoglobulins segment's continued growth from $4,675M to $5,666M indicates a robust core business foundation. Geographic diversification with strong US market performance and expanding Rest of World revenues provides multiple growth avenues. However, potential headwinds include rising tax rates and continued interest expense pressures that may moderate net profit growth.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not address key financial metrics such as revenue growth rates, operating margins, cash generation, or specific segment performance. It lacks the detailed financial projections and context provided in the ground truth."
+    },
+    {
+      "id": "3.3.1",
+      "section": "Business Competitiveness - Business Model: What is the company's primary business model (e.g., subscription, freemium, sales)?",
+      "submitted_answer": "CSL operates a diversified biotechnology business model focused on the research, development, manufacture, marketing, and distribution of biopharmaceutical products and vaccines. This model is primarily sales-driven, with revenue generated from the sale of innovative medicines and vaccines. Key components include: Plasma-derived therapies: CSL Behring discovers, develops, and delivers therapies for rare and serious health conditions, relying on a vast plasma collection network. Influenza vaccines: CSL Seqirus is a major global contributor to influenza prevention and pandemic preparedness. Iron deficiency and nephrology: CSL Vifor specializes in pharmaceuticals and therapies for these areas. Innovation and R&D: Significant investment in R&D across multiple therapeutic areas and scientific platforms (plasma protein, recombinant protein, cell & gene therapy, vaccines technology) to develop new products and indications. Strategic Partnerships: Collaborations with external partners (e.g., uniQure for gene therapy, Arcturus Therapeutics for mRNA vaccines) to expand product pipeline and capabilities.",
+      "ground_truth": "CSL operates a global biopharmaceutical business model focused on the research, development, manufacture, marketing, and distribution of innovative medicines and vaccines. Its primary revenue streams are from the sale of plasma-derived therapies, recombinant medicines, vaccines (notably influenza), and specialty pharmaceuticals, with additional income from royalties, licenses, and pandemic facility reservation fees. Revenue is recognized mainly at the point of product transfer to customers. The business is organized into three main segments: CSL Behring (plasma and recombinant therapies), CSL Seqirus (vaccines), and CSL Vifor (iron deficiency and nephrology).",
+      "score": 0.8,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer accurately describes CSL's business model as sales-driven and mentions key components like plasma-derived therapies and vaccines. However, it lacks details about additional revenue streams such as royalties and licenses, and does not specify the organization into three main segments, which are important aspects of the ground truth."
+    },
+    {
+      "id": "3.3.2",
+      "section": "Business Competitiveness - Market Position: What is the company's market share in each of its key markets? Is the company a leader, challenger, or niche player?",
+      "submitted_answer": "CSL holds a leading market position in several key therapeutic areas globally. Immunoglobulins: CSL Behring maintains a leadership position in the global Ig market, which is expected to grow, with PRIVIGEN® and HIZENTRA® anticipated to gain market share. Haemophilia B: CSL Behring is a leader with IDELVION® and the groundbreaking gene therapy HEMGENIX®. The global Haemophilia B market is expected to grow, and CSL's portfolio is poised to expand its revenue share. Hereditary Angioedema (HAE): CSL has a strong 40-year legacy in HAE, with garadacimab expected to come to market in FY25, further strengthening its position in a growing market. Influenza Vaccines: CSL Seqirus is a major contributor to global influenza prevention and a leader in pandemic preparedness, with differentiated products like FLUAD® and FLUCELVAX® outperforming the broader market. It aims to establish leadership in the markets it serves through differentiation and continuous innovation. Iron Deficiency and Nephrology: CSL Vifor aims to retain a leadership position in the iron market despite competition and expand its renal disease position to offer medicines at all stages of chronic kidney disease (CKD), addressing significant unmet needs. Overall, CSL is a leader in its core therapeutic areas, driven by innovation, a robust product portfolio, and strategic investments.",
+      "ground_truth": "CSL is a global leader in biotechnology, with strong positions in plasma-derived therapies (CSL Behring), influenza vaccines (CSL Seqirus), and iron deficiency/nephrology (CSL Vifor). CSL Behring is recognized for its leadership in immunoglobulins and is poised to expand its share in growing markets such as Haemophilia B and Hereditary Angioedema. CSL Seqirus is a leading provider of differentiated influenza vaccines and a key partner in pandemic preparedness, with more than 30 government agreements worldwide. CSL Vifor maintains a leadership position in the iron market and is expanding in nephrology, aiming to become the foremost partner in 'blood health.' The company faces competitive pressures but is well-positioned for sustainable, profitable growth due to its diversified portfolio, innovation, and global reach.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer accurately reflects CSL's market leadership in key therapeutic areas, including immunoglobulins, Haemophilia B, Hereditary Angioedema, influenza vaccines, and iron deficiency/nephrology, aligning well with the ground truth."
+    },
+    {
+      "id": "4.1.1",
+      "section": "Risk Factors - Market Risks",
+      "submitted_answer": "CSL recognizes that an impediment to delivering on its innovation and sustainable growth strategies is the changing competitive landscape for new technologies and disruptive therapies, such as gene and cell therapies. This material risk may alter the economics and characteristics of, and the demand for, CSL's plasma and adjacent therapies, and may also affect the platforms and capabilities in plasma protein technology, recombinant protein technology, cell and gene therapy and vaccines technology.",
+      "ground_truth": "CSL faces significant market risks from a rapidly evolving competitive landscape, including disruptive technologies (e.g., gene and cell therapies), and changing demand for plasma and adjacent therapies. The company regularly reviews its product pipeline and market demand to remain competitive.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer accurately reflects the key points from the ground truth regarding market risks, including the competitive landscape and the impact on CSL's therapies."
+    },
+    {
+      "id": "4.1.2",
+      "section": "Risk Factors - Operational Risks",
+      "submitted_answer": "Having a sustainable and reliable supply chain is critical to the success of CSL's 2030 Strategy, particularly to achieving consistent, economical and efficient supply. Any disruption to supply has the potential to impact CSL's operations. CSL constantly monitors the demand for its products over a 10-year horizon as well as its capacity to acquire raw materials essential to the manufacture of CSL products.",
+      "ground_truth": "Operational risks include supply chain disruptions, capacity constraints, product quality and patient safety, cybersecurity threats, and talent management. The company also addresses cybersecurity and data privacy risks through proactive monitoring, controls, and employee training.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer only addresses supply chain disruptions and does not mention other operational risks such as capacity constraints, product quality, patient safety, cybersecurity threats, and talent management, which are all included in the ground truth."
+    },
+    {
+      "id": "4.1.3",
+      "section": "Risk Factors - Financial Risks",
+      "submitted_answer": null,
+      "ground_truth": "Financial risks include foreign exchange risk, interest rate risk, credit risk, funding and liquidity risk, and capital management risk. CSL mitigates these through natural hedging, fixed rate arrangements, credit ratings checks, maintaining strong cash flows, and prudent capital structure.",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null and does not provide any information, while the ground truth lists specific financial risks and mitigation strategies."
+    },
+    {
+      "id": "4.1.4",
+      "section": "Risk Factors - Compliance Risks",
+      "submitted_answer": "The privacy and security of CSL's data, including that of CSL's patients, donors and employees, is of critical importance to CSL. CSL recognizes the escalating risk of cyber threats and data privacy breaches targeting individuals and organizations. These cyberattacks constantly evolve, ranging from sophisticated phishing scams to attacks on critical infrastructure. Additionally, breaches of CSL's information technology (IT) security and unauthorized or inadvertent release of information, caused by human error, malware or espionage, may compromise the privacy and security of the data CSL holds.",
+      "ground_truth": "Compliance risks include adherence to laws, regulations, tax transparency, and continuous disclosure obligations. CSL maintains a structured Enterprise Risk Management Framework to ensure that risks are identified, evaluated, monitored and managed.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer focuses on data privacy and cyber threats, which does not address the specific compliance risks related to laws, regulations, tax transparency, and disclosure obligations as outlined in the ground truth."
+    },
+    {
+      "id": "5.1.1",
+      "section": "Board Composition - Name",
+      "submitted_answer": "Dr Brian McNamee AO; Dr Paul McKenzie; Dr Megan Clark AC; Professor Andrew Cuthbertson AO; Ms Carolyn Hewson AO; Ms Samantha Lewis; Professor Duncan Maskell; Ms Marie McDonald; Ms Alison Watkins AM; Mr Bruce Brook; Mr Paul Perreault",
+      "ground_truth": "Dr Paul McKenzie",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer lists multiple names, while the ground truth only specifies one name, Dr Paul McKenzie. Since the submitted answer does not match the ground truth, it is considered incorrect."
+    },
+    {
+      "id": "5.1.2",
+      "section": "Board Composition - Position",
+      "submitted_answer": "Chair and Independent Non-Executive Director; CEO and MD (Non-independent Executive Director); Independent Non-executive Director; Independent Non-executive Director (2024); Non-Independent Non-Executive Director (2023); Independent Non-executive Director; Independent Non-executive Director; Independent Non-executive Director; Independent Non-executive Director; Former Independent Non-Executive Director; Former Executive Director and CEO",
+      "ground_truth": "Chief Executive Officer and Managing Director (Executive Director)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer includes multiple positions and titles that do not match the ground truth, which specifies only the 'Chief Executive Officer and Managing Director (Executive Director)'. The submitted answer is overly detailed and includes incorrect titles and roles."
+    },
+    {
+      "id": "5.1.3",
+      "section": "Board Composition - Total Income",
+      "submitted_answer": "US$604,848 (2024); US$601,219 (2023); US$8,183,842 (2024); US$4,409,610 (2023); US$242,439 (2024); US$242,267 (2023); US$221,354 (2024); US$220,294 (2023); US$237,087 (2024); US$234,269 (2023); US$91,124 (2024); N/A (2023); US$190,944 (2024); US$187,334 (2023); US$215,186 (2024); US$213,870 (2023); US$240,557 (2024); US$213,238 (2023); US$78,736 (2024); US$224,140 (2023); N/A (2024); US$4,578,910 (2023)",
+      "ground_truth": "US$8,183,842 (2024: includes base salary, bonuses, share-based payments, etc.)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains multiple income figures that do not match the ground truth, which specifies only one total income figure for 2024. Additionally, the ground truth includes a description of what the total income encompasses, which is missing in the submitted answer."
+    },
+    {
+      "id": "5.2.1",
+      "section": "Internal Controls - Risk assessment procedures",
+      "submitted_answer": "CSL's Global Enterprise Risk Management Framework provides robust risk oversight, identifying and assessing material business risks, including external and emerging risks like cyber threats and data privacy breaches. Annual assessment of bribery and corruption risk conducted by Ethics & Compliance teams.",
+      "ground_truth": "CSL has adopted a detailed and structured Enterprise Risk Management Framework (ERMF) to ensure risks are identified, evaluated, monitored, and managed. The ERMF sets out risk management processes, internal compliance and monitoring requirements, governance processes and structures, including roles and responsibilities for different management levels, and a matrix for risk impact and likelihood.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not mention the structured nature of the Enterprise Risk Management Framework (ERMF), its processes, compliance requirements, governance structures, or roles and responsibilities, which are key components of the ground truth."
+    },
+    {
+      "id": "5.2.2",
+      "section": "Internal Controls - Control activities",
+      "submitted_answer": "Security controls for IT systems, infrastructure, and data are designed and implemented based on known threats and industry best practices. Ongoing education and training for employees on cyber and privacy risks, including crisis response simulations and business continuity exercises. Internal control systems ensure financial statements comply with local laws and prevent fraud.",
+      "ground_truth": "The Board is responsible for overseeing the risk management, financial reporting, and compliance framework. Internal control systems are in place to ensure financial statements comply with applicable laws and to prevent fraud and improper conduct. The company has cybersecurity policies, standards, and practices, and all employees undertake training on the Code of Responsible Business Practice.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer addresses internal controls and employee training but lacks mention of the Board's responsibility and the specific Code of Responsible Business Practice. It also does not fully align with the phrasing of the ground truth."
+    },
+    {
+      "id": "5.2.3",
+      "section": "Internal Controls - Monitoring mechanisms",
+      "submitted_answer": "CSL's Chief Information Security Officer provides quarterly reports to the Audit & Risk Committee. Monitoring, identification, assessment, and management processes, coupled with communication and escalation protocols, keep the Global Leadership Group informed of potential risks. External third parties assess the effectiveness of the cybersecurity program.",
+      "ground_truth": "The Board, Audit & Risk Management Committee (ARMC) provide oversight. The ARMC assists the Board in governance of financial reporting, risk identification, management, and compliance, and oversees ESG performance. The Board, via the ARMC, periodically receives information on material breaches of the Anti-Bribery and Anti-Corruption Policy, and CSL’s Chief Information Security Officer provides quarterly reports to the ARMC.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer correctly mentions the Chief Information Security Officer providing quarterly reports to the Audit & Risk Committee, but it lacks details about the Board's oversight role and the specific governance aspects related to financial reporting, risk management, and compliance mentioned in the ground truth."
+    },
+    {
+      "id": "5.2.4",
+      "section": "Internal Controls - Identified material weaknesses or deficiencies",
+      "submitted_answer": "No material accounting impacts or changes to judgments or other required disclosures resulted from the climate risk assessment for the year ended 30 June 2024.",
+      "ground_truth": "No material weaknesses or deficiencies in internal control are reported. The climate program’s independent review found overall controls and effectiveness to be good, with only two low-priority findings for management’s consideration.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not mention the independent review or the two low-priority findings, which are key elements of the ground truth. It only states that there were no material impacts, which is insufficient."
+    },
+    {
+      "id": "5.2.5",
+      "section": "Internal Controls - Improvements",
+      "submitted_answer": "Strategic investments in cybersecurity have been made to improve threat management capabilities, proactive defense posture, and rapid response to cybersecurity events. Continuous investment in defenses against AI-enhanced threats, including enhanced threat detection and response, machine learning, and adaptive security measures. Improved digital data privacy processes to ensure compliance with new and changing regulations.",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer provides relevant information about improvements in internal controls related to cybersecurity, which aligns with the ground truth being null (no specific requirements)."
+    },
+    {
+      "id": "5.2.6",
+      "section": "Internal Controls - Effectiveness",
+      "submitted_answer": "CSL's business strategy, operations, or financial condition have not been successfully affected by cyber-attack as at the date of the report. The quality systems established globally by CSL are effective and in line with regulatory agency expectations, with no critical findings preventing product release or license terminations.",
+      "ground_truth": "The internal control framework is considered effective. No material accounting impacts or changes to judgements or other required disclosures have resulted from risk assessments.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not address the effectiveness of the internal control framework or mention material accounting impacts, changes to judgments, or required disclosures, which are key elements in the ground truth."
+    },
+    {
+      "id": "6.1.1",
+      "section": "Strategic Direction - Mergers and acquisitions (M&A) to expand market share",
+      "submitted_answer": "CSL continues to seek out new and unexplored avenues to tackle medical challenges, including licensing, acquiring, or partnering with third parties to remain competitive and advance growth within its chosen therapeutic areas. The company also strengthens existing partnerships, such as joining Brandon Capitol's new BioCatalyst Fund 6 and extending its partnership with BaseLaunch.",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer discusses CSL's strategic direction in mergers and acquisitions, including licensing, acquiring, and partnering, which aligns with the ground truth being null (no specific content to compare against)."
+    },
+    {
+      "id": "6.1.2",
+      "section": "Strategic Direction - Acquire new technologies",
+      "submitted_answer": "CSL is investing in new technologies to drive business performance, including advanced manufacturing technology in new facilities in Australia and Europe, and digital technology to customize donor applications. The company is also advancing mRNA vaccine technology, with the approval of KOSTAIVE® in Japan, and exploring the use of sa-mRNA technology for influenza and COVID-19 vaccines.",
+      "ground_truth": "CSL is investing in next-generation technologies including sa-mRNA vaccines (KOSTAIVE approved in Japan), gene therapies (HEMGENIX for haemophilia B), and digital transformation with advanced manufacturing technology.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer correctly mentions the investment in sa-mRNA vaccines (KOSTAIVE approved in Japan) and advanced manufacturing technology, but it omits the mention of gene therapies (HEMGENIX for haemophilia B) and does not include the specific reference to gene therapies as part of the new technologies."
+    },
+    {
+      "id": "6.1.3",
+      "section": "Strategic Direction - Potential for organizational restructuring",
+      "submitted_answer": "CSL's Global Leadership Group has been bolstered by several new appointments to deliver on its 2030 Strategy. The company is also implementing a refreshed commercial operating model and exploring potential synergies with CSL Vifor.",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer provides relevant information about CSL's Global Leadership Group and its strategic initiatives, which aligns with the topic of potential organizational restructuring."
+    },
+    {
+      "id": "6.2.1",
+      "section": "Challenges and Uncertainties - Economic challenges such as inflation, recession risks, and shifting consumer behavior that could impact revenue and profitability.",
+      "submitted_answer": "CSL operates in a complex operating environment with external challenges, but focuses on controllable factors to deliver strong financial results. The company acknowledges that macroeconomic pressures and other factors lead governments and payers to emphasize affordable pricing and equitable patient access.",
+      "ground_truth": "The report acknowledges macroeconomic pressures, including inflation and affordability concerns, which may lead governments and payers to emphasize affordable pricing and equitable patient access. These factors could adversely affect CSL’s ability to execute its strategy, deliver sustainable growth, and uphold its corporate reputation.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer mentions macroeconomic pressures and affordability concerns, which aligns with the ground truth. However, it does not explicitly mention inflation, recession risks, or shifting consumer behavior, which are key elements in the ground truth."
+    },
+    {
+      "id": "6.2.2",
+      "section": "Challenges and Uncertainties - Competitive pressures from both established industry players and new, disruptive market entrants that the company faces",
+      "submitted_answer": "CSL recognizes that the changing competitive landscape for new technologies and disruptive therapies, such as gene and cell therapies, may alter the economics and demand for its plasma and adjacent therapies. Competitive pressures across some indications have increased recently.",
+      "ground_truth": "The report identifies the changing competitive landscape, particularly from new technologies and disruptive therapies such as gene and cell therapies. These developments may alter the economics, demand, and characteristics of CSL’s plasma and adjacent therapies, and affect its platforms and capabilities.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer accurately reflects the key points from the ground truth regarding competitive pressures and the impact of new technologies and therapies on CSL's business."
+    },
+    {
+      "id": "6.3.1",
+      "section": "Innovation and Development Plans - R&D investments, with a focus on advancing technology, improving products, and creating new solutions to cater to market trends",
+      "submitted_answer": "CSL invested US$1.4 billion in R&D in 2023/24, focusing on innovative products, manufacturing processes, and protecting public health. The company strengthens its therapeutic area focus with robust technical development platforms and aims to build a comprehensive and innovative pipeline. Key advancements include HEMGENIX® and KOSTAIVE® approvals, and regulatory filings for garadacimab.",
+      "ground_truth": "Invested US$1.4b in R&D; advancing strategic platforms to address market shifts and competitive risk. Priorities include increasing Ig yields via data analytics/operational excellence, progressing mAbs (garadacimab), and gene therapy.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer correctly states the R&D investment amount and mentions advancements like garadacimab, but it lacks details on increasing Ig yields and operational excellence, which are key priorities in the ground truth."
+    },
+    {
+      "id": "6.3.2",
+      "section": "Innovation and Development Plans - New product launches, emphasizing the company’s commitment to continuously introducing differentiated products",
+      "submitted_answer": "CSL continues to broaden the geography and use of its medicines, with 87 product registrations or new indications in 28 countries in 2023/24. Notable launches include HEMGENIX® (gene therapy for haemophilia B) and KOSTAIVE® (sa-mRNA COVID-19 vaccine). Regulatory filings for garadacimab (HAE therapy) in the US and EU are underway.",
+      "ground_truth": "CSL continues to launch new and differentiated products across its therapeutic areas, including immunology, haematology, nephrology, and vaccines. Notable launches include HEMGENIX and KOSTAIVE. The company is also expanding its influenza vaccine portfolio and advancing new products such FILSPARI.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer mentions notable product launches and the number of registrations, but it lacks details about the therapeutic areas and the expansion of the influenza vaccine portfolio, which are part of the ground truth."
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "overall_score": 0.6603,
+  "section_scores": {
+    "1.1": 1.0,
+    "1.2": 0.625,
+    "1.3": 1.0,
+    "2.1": 0.625,
+    "2.2": 0.6364,
+    "2.3": 0.8,
+    "2.4": 0.5833,
+    "2.5": 0.5,
+    "3.1": 0.0,
+    "3.2": 0.0,
+    "3.3": 1.0,
+    "4.1": 1.0,
+    "5.1": 0.0,
+    "5.2": 1.0,
+    "6.1": 1.0,
+    "6.2": 1.0,
+    "6.3": 1.0
+  },
+  "items": [
+    {
+      "id": "1.1.1",
+      "section": "Basic Information - Company Name",
+      "submitted_answer": "Chemring Group PLC",
+      "ground_truth": "Chemring Group PLC",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly."
+    },
+    {
+      "id": "1.1.2",
+      "section": "Basic Information - Establishment Date",
+      "submitted_answer": null,
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "Both the submitted answer and the ground truth are null, indicating no information is provided, which is consistent."
+    },
+    {
+      "id": "1.1.3",
+      "section": "Basic Information - Headquarters Location (CIty and Country)",
+      "submitted_answer": "Romsey, Hampshire, UK",
+      "ground_truth": "Romsey, Hampshire, UK",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of city and country."
+    },
+    {
+      "id": "1.2.1",
+      "section": "Core Competencies - Innovation Advantages",
+      "submitted_answer": "Chemring emphasizes innovation at every stage of the value chain, from R&D to design, manufacture, and in-service support, creating market-leading technology solutions. Roke's innovation team explores autonomy and scaling robot use, integrating different robot types for complex problems.",
+      "ground_truth": "Chemring emphasizes innovation at every stage of the value chain, from R&D to design, manufacture, and in-service support, creating market-leading technology solutions.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer correctly includes the information about Chemring's emphasis on innovation but adds additional information about Roke's innovation team, which is not part of the ground truth."
+    },
+    {
+      "id": "1.2.2",
+      "section": "Core Competencies - Product Advantages",
+      "submitted_answer": "Chemring offers a diverse range of products, including advanced sensors, electronic warfare systems, and countermeasures, with a significant market share in NATO fleets. Precision engineered devices are supplied to NASA, SpaceX, and Martin-Baker.",
+      "ground_truth": "Chemring offers a diverse range of products, including advanced sensors, electronic warfare systems, and countermeasures, with a significant market share in NATO fleets.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer includes all elements from the ground truth but adds additional information about clients (NASA, SpaceX, and Martin-Baker) that is not present in the ground truth, which affects the completeness of the answer."
+    },
+    {
+      "id": "1.2.3",
+      "section": "Core Competencies - Brand Recognition",
+      "submitted_answer": "Chemring is recognized as a preferred supplier in niche markets with high barriers to entry, enjoying sole source or market-leading positions. Awarded \"Tech Business of the Year\" at the PLC Awards.",
+      "ground_truth": "Chemring is recognized as a preferred supplier in niche markets with high barriers to entry, enjoying sole source or market-leading positions.",
+      "score": 0.5,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer includes the correct information about Chemring's recognition as a preferred supplier in niche markets, but it adds an additional detail about being awarded 'Tech Business of the Year' which is not present in the ground truth."
+    },
+    {
+      "id": "1.2.4",
+      "section": "Core Competencies - Reputation Ratings",
+      "submitted_answer": "Chemring has received high ratings for its ESG performance, including an MSCI ESG Rating of AAA, reflecting its commitment to sustainability and ethical business conduct.",
+      "ground_truth": "Chemring has received high ratings for its ESG performance, including an MSCI ESG Rating of AAA, reflecting its commitment to sustainability and ethical business conduct.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and meaning."
+    },
+    {
+      "id": "1.3.1",
+      "section": "Mission & Vision - Mission Statement",
+      "submitted_answer": "Chemring helps make the world a safer place. Across physical and digital environments, our exceptional teams deliver innovative technologies and products that detect, defeat and counter ever-changing threats.",
+      "ground_truth": "Chemring helps make the world a safer place. Across physical and digital environments, our exceptional teams deliver innovative technologies and products that detect, defeat and counter ever-changing threats.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly without any discrepancies."
+    },
+    {
+      "id": "1.3.2",
+      "section": "Mission & Vision - Vision Statement",
+      "submitted_answer": "To be our customers' preferred supplier operating in niche markets with high barriers to entry and where we enjoy sole source or market-leading positions.",
+      "ground_truth": "To be our customers' preferred supplier operating in niche markets with high barriers to entry and where we enjoy sole source or market-leading positions.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly without any differences."
+    },
+    {
+      "id": "1.3.3",
+      "section": "Mission & Vision - Core Value",
+      "submitted_answer": "Safety, Excellence, Innovation",
+      "ground_truth": "Safety, Excellence, Innovation",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with no discrepancies."
+    },
+    {
+      "id": "2.1.1",
+      "section": "Income Statement - Revenue",
+      "submitted_answer": "510.4",
+      "ground_truth": "510.4",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.1.2",
+      "section": "Income Statement - Cost of Goods Sold (COGS)",
+      "submitted_answer": "165.3",
+      "ground_truth": null,
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The ground truth is null, indicating no value is provided, while the submitted answer contains a numeric value."
+    },
+    {
+      "id": "2.1.3",
+      "section": "Income Statement - Gross Profit",
+      "submitted_answer": "345.1",
+      "ground_truth": null,
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The ground truth is null, indicating no value is provided, while the submitted answer contains a numeric value."
+    },
+    {
+      "id": "2.1.4",
+      "section": "Income Statement - Operating Expenses",
+      "submitted_answer": "205.8",
+      "ground_truth": "452.3",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 205.8 does not match the ground truth of 452.3, indicating a significant discrepancy in the reported operating expenses."
+    },
+    {
+      "id": "2.1.5",
+      "section": "Income Statement - Operating Income",
+      "submitted_answer": "58.1",
+      "ground_truth": "58.1",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.1.6",
+      "section": "Income Statement - Net Income",
+      "submitted_answer": "39.5",
+      "ground_truth": "39.5",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.1.7",
+      "section": "Income Statement - Income before income taxes",
+      "submitted_answer": "53.3",
+      "ground_truth": "53.3",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.1.8",
+      "section": "Income Statement - Income tax expense (benefit)",
+      "submitted_answer": "10.6",
+      "ground_truth": "10.6",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.2.1",
+      "section": "Balance Sheet - Total Assets",
+      "submitted_answer": "692.1",
+      "ground_truth": "692.1",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.2.2",
+      "section": "Balance Sheet - Current Assets",
+      "submitted_answer": "264.0",
+      "ground_truth": "264.0",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both value and format."
+    },
+    {
+      "id": "2.2.3",
+      "section": "Balance Sheet - Non-Current Assets",
+      "submitted_answer": "422.3",
+      "ground_truth": "422.3",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.2.4",
+      "section": "Balance Sheet - Total Liabilities",
+      "submitted_answer": "-335.8",
+      "ground_truth": "(335.8)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer has a negative sign (-335.8) while the ground truth is positive (335.8)."
+    },
+    {
+      "id": "2.2.5",
+      "section": "Balance Sheet - Current Liabilities",
+      "submitted_answer": "-221.9",
+      "ground_truth": "(221.9)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer has a negative sign (-221.9) while the ground truth is positive (221.9)."
+    },
+    {
+      "id": "2.2.6",
+      "section": "Balance Sheet - Non-Current Liabilities",
+      "submitted_answer": "-113.9",
+      "ground_truth": "(113.9)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer has a negative sign (-113.9) while the ground truth is positive (113.9), which is a significant error."
+    },
+    {
+      "id": "2.2.7",
+      "section": "Balance Sheet - Shareholders' Equity",
+      "submitted_answer": "356.3",
+      "ground_truth": "356.3",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in value."
+    },
+    {
+      "id": "2.2.8",
+      "section": "Balance Sheet - Retained Earnings",
+      "submitted_answer": "52.3",
+      "ground_truth": "52.3",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly."
+    },
+    {
+      "id": "2.2.9",
+      "section": "Balance Sheet - Total Equity and Liabilities",
+      "submitted_answer": "692.1",
+      "ground_truth": "692.1",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.2.10",
+      "section": "Balance Sheet - Inventories",
+      "submitted_answer": "127.1",
+      "ground_truth": "127.1",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.2.11",
+      "section": "Balance Sheet - Prepaid Expenses",
+      "submitted_answer": "7.0",
+      "ground_truth": null,
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer provides a numeric value while the ground truth is null, indicating a missing value."
+    },
+    {
+      "id": "2.3.1",
+      "section": "Cash Flow Statement - Net Cash Flow from Operations",
+      "submitted_answer": "81.0",
+      "ground_truth": "81.0",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same numeric value."
+    },
+    {
+      "id": "2.3.2",
+      "section": "Cash Flow Statement - Net Cash Flow from Investing",
+      "submitted_answer": "-47.6",
+      "ground_truth": "(47.6)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer of -47.6 matches the ground truth value of (47.6) in magnitude and sign, with the negative sign correctly indicating cash outflow."
+    },
+    {
+      "id": "2.3.3",
+      "section": "Cash Flow Statement - Net Cash Flow from Financing",
+      "submitted_answer": "-37.3",
+      "ground_truth": "(37.3)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer of -37.3 matches the ground truth value of (37.3) in magnitude and sign, with the only difference being the format of the negative sign."
+    },
+    {
+      "id": "2.3.4",
+      "section": "Cash Flow Statement - Net Increase/Decrease in Cash",
+      "submitted_answer": "-3.9",
+      "ground_truth": "(3.9)",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer is -3.9, which has a different sign compared to the ground truth of (3.9)."
+    },
+    {
+      "id": "2.3.5",
+      "section": "Cash Flow Statement - Dividends",
+      "submitted_answer": "-19.6",
+      "ground_truth": "(19.6)",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer of -19.6 matches the ground truth value of (19.6) in magnitude and sign, with the only difference being the parentheses which do not affect the correctness."
+    },
+    {
+      "id": "2.4.1",
+      "section": "Key Financial Metrics - Gross Margin = (Revenue − COGS) ÷ Revenue",
+      "submitted_answer": "67.61%",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Missing",
+      "reasoning": "Both the submitted answer and the ground truth are missing, so the score is 1."
+    },
+    {
+      "id": "2.4.2",
+      "section": "Key Financial Metrics - Operating Margin = Operating Income ÷ Revenue",
+      "submitted_answer": "11.38%",
+      "ground_truth": "11.38%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both value and percentage format."
+    },
+    {
+      "id": "2.4.3",
+      "section": "Key Financial Metrics - Net Profit Margin = Net Income ÷ Revenue",
+      "submitted_answer": "7.74%",
+      "ground_truth": "7.74%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both value and format."
+    },
+    {
+      "id": "2.4.4",
+      "section": "Key Financial Metrics - Current Ratio = Current Assets ÷ Current Liabilities",
+      "submitted_answer": "1.19",
+      "ground_truth": "119%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 1.19 is not equivalent to the ground truth of 119%, as 1.19 represents a decimal value while 119% is a percentage value. They are not the same representation of the current ratio."
+    },
+    {
+      "id": "2.4.5",
+      "section": "Key Financial Metrics - Quick Ratio = (Current Assets − Inventories − Prepaid expenses) ÷ Current Liabilities",
+      "submitted_answer": "0.617",
+      "ground_truth": "61.7%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer is in decimal form (0.617), while the ground truth is in percentage form (61.7%). The values are not equivalent in format, leading to a score of 0."
+    },
+    {
+      "id": "2.4.6",
+      "section": "Key Financial Metrics - Interest Coverage = Operating Income ÷ Interest Expense",
+      "submitted_answer": "11.09",
+      "ground_truth": "1210%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 11.09 does not match the ground truth of 1210%, which indicates a significant discrepancy in the calculation of the interest coverage ratio."
+    },
+    {
+      "id": "2.4.7",
+      "section": "Key Financial Metrics - Asset Turnover = Revenue ÷ Average Total Assets",
+      "submitted_answer": "0.79",
+      "ground_truth": "79.1%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 0.79 is not equivalent to the ground truth of 79.1%, as it represents a different scale (0.79 vs. 79.1%)."
+    },
+    {
+      "id": "2.4.8",
+      "section": "Key Financial Metrics - Debt-to-Equity = Total Liabilities ÷ Shareholders’ Equity",
+      "submitted_answer": "0.24",
+      "ground_truth": "94.25%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 0.24 does not match the ground truth of 94.25%, indicating a significant discrepancy in the calculation of the Debt-to-Equity ratio."
+    },
+    {
+      "id": "2.4.9",
+      "section": "Key Financial Metrics - Return on Equity (RoE) = Net Income ÷ Average Shareholders’ Equity",
+      "submitted_answer": "10.75%",
+      "ground_truth": "10.75%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in value and percentage format."
+    },
+    {
+      "id": "2.4.10",
+      "section": "Key Financial Metrics - Return on Assets (RoA) = Net Income ÷ Average Total Assets",
+      "submitted_answer": "6.13%",
+      "ground_truth": "6.13%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both value and format."
+    },
+    {
+      "id": "2.4.11",
+      "section": "Key Financial Metrics - Effective Tax Rate = Income tax expense (benefit) ÷ Income before income taxes",
+      "submitted_answer": "19.89%",
+      "ground_truth": "19.89%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with the same value of 19.89%."
+    },
+    {
+      "id": "2.4.12",
+      "section": "Key Financial Metrics - Dividend Payout Ratio = Dividends ÷ Net Income",
+      "submitted_answer": "49.62%",
+      "ground_truth": "49.62%",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly at 49.62%."
+    },
+    {
+      "id": "2.5.1",
+      "section": "Operating Performance - Revenue by Product/Service: What is the revenue breakdown by product/service?",
+      "submitted_answer": "Goods: £339.4m, Services: £171.0m",
+      "ground_truth": "Sensors & Information: £212.0m, Countermeasures & Energetics: £298.4m",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer provides a revenue breakdown by 'Goods' and 'Services', which does not match the ground truth categories of 'Sensors & Information' and 'Countermeasures & Energetics'. Additionally, the revenue figures are entirely different."
+    },
+    {
+      "id": "2.5.2",
+      "section": "Operating Performance - Revenue by Geographic Region: What is the revenue breakdown by geographic region?",
+      "submitted_answer": "UK: £229.2m, US: £172.6m, Europe: £86.0m, Asia Pacific: £16.7m, Rest of the world: £5.9m",
+      "ground_truth": "UK: £229.2m, US: £172.6m, Europe: £86.0m, Asia Pacific: £16.7m, Rest of the world: £5.9m",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of revenue figures and geographic regions."
+    },
+    {
+      "id": "3.1.1",
+      "section": "Profitability Analysis  - Revenue & Direct-Cost Dynamics",
+      "submitted_answer": "Revenue increased by 8% to £510.4m (2023: £472.6m), with a 9.5% increase at constant currency. This growth was driven by strong performance at Roke (up 17%) and niche Energetics businesses (up 12%), partially offset by a weaker year for Countermeasures.",
+      "ground_truth": "Revenue grew from £442.8m in 2022 to £472.6m in 2023, and further to £510.4m in 2024. The gross margin is not available, but revenue growth is evident. Revenue by product/service shows growth in both segments, with Sensors & Information increasing significantly. Revenue by geographic region indicates growth in the UK and Europe, while the US saw a slight decline in 2024.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer incorrectly states the revenue growth percentages and figures for the years 2022 and 2023. The ground truth specifies revenue figures for 2022, 2023, and 2024, which are not accurately reflected in the submitted answer."
+    },
+    {
+      "id": "3.1.2",
+      "section": "Profitability Analysis  - Operating Efficiency",
+      "submitted_answer": "Underlying operating profit margin decreased to 13.9% (2023: 14.6%), primarily due to operational challenges at the Tennessee countermeasures business and a lower-margin legacy US Government contract.",
+      "ground_truth": "The operating margin decreased from 12.32% in 2022 to 9.61% in 2023, then increased to 11.38% in 2024. This indicates improved operating efficiency in 2024 compared to 2023, but not reaching 2022 levels.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer incorrectly states the operating profit margin values and the years they correspond to. The ground truth indicates a decrease from 12.32% in 2022 to 9.61% in 2023, while the submitted answer mentions a decrease to 13.9% in 2023, which is not accurate."
+    },
+    {
+      "id": "3.1.3",
+      "section": "Profitability Analysis  - External & One-Off Impact",
+      "submitted_answer": "Non-underlying items impacting profit before tax were -£13.0m (2023: -£23.8m), including a £2.0m loss on derivative financial instruments, £3.4m acquisition expenses, £7.5m pension buy-in/buy-out costs, and £1.2m senior management change costs, offset by a £3.1m release of legal/disposal provisions.",
+      "ground_truth": "The effective tax rate increased from 7.31% in 2022 to 14.51% in 2023, and further to 19.89% in 2024. This increase in tax rate coincided with a drop in net profit margin from 2022 to 2023, although other factors also influenced margins.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not address the effective tax rate or net profit margin, which are key components of the ground truth. Instead, it focuses on non-underlying items impacting profit before tax, which is unrelated."
+    },
+    {
+      "id": "3.2.1",
+      "section": "Financial Performance Summary - Comprehensive financial health",
+      "submitted_answer": "The company demonstrated continued growth with total assets increasing to £692.1m (2023: £596.4m). However, total liabilities also rose significantly to £335.8m (2023: £217.9m), leading to a decrease in total equity to £356.3m (2023: £378.5m). Net debt increased to £52.8m (2023: £14.4m), indicating higher leverage.",
+      "ground_truth": "The company demonstrates continued revenue growth, increasing to £510.4m from £472.6m in 2023. Total assets expanded to £692.1m. However, this growth was accompanied by a significant rise in total liabilities to £335.8m from £217.9m, which contributed to a decline in shareholders' equity to £356.3m from £378.5m, indicating increased leverage.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer incorrectly states that the company demonstrated growth in total assets and liabilities but fails to mention the revenue growth, which is a key aspect of the ground truth. Additionally, the figures for revenue are missing entirely in the submitted answer."
+    },
+    {
+      "id": "3.2.2",
+      "section": "Financial Performance Summary - Profitabilitiy and earnings quality",
+      "submitted_answer": "Profitability improved significantly, with profit after tax increasing to £39.5m (2023: £5.4m). Underlying operating profit rose to £71.1m (2023: £69.2m), though the underlying operating margin slightly decreased to 13.9% (2023: 14.6%). Underlying diluted EPS was 19.3p (2023: 20.0p).",
+      "ground_truth": "Profitability saw a strong recovery in 2024. The net profit margin surged to 7.74% from 1.14% in 2023, and the operating margin improved to 11.38% from 9.61%. Consequently, Return on Equity (ROE) and Return on Assets (ROA) rebounded to 10.75% and 6.13% respectively. However, the effective tax rate continued to climb, reaching 19.89%.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer provides figures for profit after tax, underlying operating profit, operating margin, and underlying diluted EPS, but these do not match the ground truth figures for net profit margin, operating margin, ROE, ROA, or effective tax rate. The values and metrics discussed are entirely different."
+    },
+    {
+      "id": "3.2.3",
+      "section": "Financial Performance Summary - Operational efficiency",
+      "submitted_answer": "Operational efficiency remained strong, with underlying cash conversion at 102% (2023: 90%) and a 36-month rolling average of 101% (2023: 101%). Working capital as a percentage of revenue remained stable at 17% (2023: 17%). Inventory increased to £127.1m (2023: £101.7m) to secure supply chains.",
+      "ground_truth": "Operational efficiency presented a positive picture. The operating margin improved to 11.38% from 9.61% in 2023, suggesting better operational control. The asset turnover slightly increased to 79.1% from 77.7%. On a positive note, net cash flow from operations was strong, increasing to £81.0m from £65.9m.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not match the ground truth in terms of content. It discusses cash conversion and working capital, while the ground truth focuses on operating margin, asset turnover, and net cash flow from operations, which are entirely different metrics."
+    },
+    {
+      "id": "3.2.4",
+      "section": "Financial Performance Summary - Financial risk identification and early warning",
+      "submitted_answer": "Financial risk increased due to higher net debt and increased capital expenditure. Net debt to underlying EBITDA ratio rose to 0.56x (2023: 0.16x), though still below the internal target of <1.5x. The company secured an £80m UK Export Finance-backed loan, increasing accessible funding to £246m.",
+      "ground_truth": "Financial risk increased in 2024. The Debt-to-Equity ratio rose sharply to 94.25% from 57.58%, indicating a significant increase in leverage. Liquidity weakened, with the current ratio decreasing to 119% from 129% in 2023. The interest coverage ratio, while still very high, decreased substantially from 3492% to 1210%.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer discusses net debt and EBITDA ratio, while the ground truth focuses on Debt-to-Equity ratio, current ratio, and interest coverage ratio, which are entirely different metrics. Additionally, the year mentioned in the submitted answer is incorrect (2023 instead of 2024)."
+    },
+    {
+      "id": "3.2.5",
+      "section": "Financial Performance Summary - Future financial performance projection",
+      "submitted_answer": "The company projects strong long-term growth, aiming for £1bn annual revenue by 2030. The record order book of £1,038m provides excellent medium-term revenue coverage, with 77% of 2025 revenue covered. Significant capital investment of £200m in Energetics is expected to add £100m revenue and £30m operating profit by 2028.",
+      "ground_truth": "The company continues to invest in growth, with net cash used in investing increasing to £47.6m from £39.4m. Revenue growth is robust, driven by the Sensors & Information segment and expansion in the UK and Europe. The dividend payout ratio of 49.62% shows a continued commitment to shareholder returns, though the rising debt levels warrant monitoring.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not match the ground truth in terms of content. It focuses on revenue projections and capital investment, while the ground truth discusses net cash used in investing, revenue growth drivers, dividend payout ratio, and debt levels, which are all missing in the submitted answer."
+    },
+    {
+      "id": "3.3.1",
+      "section": "Business Competitiveness - Business Model: What is the company's primary business model (e.g., subscription, freemium, sales)?",
+      "submitted_answer": "Chemring's business model is centered on being a specialist manufacturing and technology business, delivering innovative solutions in niche markets with high barriers to entry. It focuses on detecting, defeating, and countering ever-changing threats across physical and digital environments. The model emphasizes R&D, design, manufacture, and in-service support, working closely with customers.",
+      "ground_truth": "Chemring operates a technology-driven business model focused on providing innovative solutions across the defense and security sectors. The company invests in R&D, design, manufacture, and in-service support, working closely with customers to deliver mission-critical products and services.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer accurately describes Chemring's business model as technology-driven and focused on innovative solutions, aligning closely with the ground truth description."
+    },
+    {
+      "id": "3.3.2",
+      "section": "Business Competitiveness - Market Position: What is the company's market share in each of its key markets? Is the company a leader, challenger, or niche player?",
+      "submitted_answer": "Chemring holds market-leading positions, including over 65% market share in air and naval countermeasures. It is a key supplier to NATO and operates in the UK (45% of sales), US (34%), Europe (17%), and Asia Pacific (4%). The company benefits from increased defense budgets and demand for technology-driven solutions and traditional defense capabilities.",
+      "ground_truth": "Chemring holds a strong market position with leadership in several niche markets, including a >65% market share in air and naval countermeasures. The company is a key supplier to NATO and has a significant presence in the US, UK, Europe, and Asia Pacific.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer accurately reflects the company's market share and position as a leader in air and naval countermeasures, along with its key markets and sales distribution."
+    },
+    {
+      "id": "4.1.1",
+      "section": "Risk Factors - Market Risks",
+      "submitted_answer": "Defence spending depends on political considerations and fiscal constraints, subject to yearly fluctuations and downward pressure.",
+      "ground_truth": "Defence spending depends on political considerations and fiscal constraints, subject to yearly fluctuations and downward pressure.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and meaning."
+    },
+    {
+      "id": "4.1.2",
+      "section": "Risk Factors - Operational Risks",
+      "submitted_answer": "The Group's operations involve energetic materials with inherent safety risks that could result in harm to employees, facility shutdowns, or manufacturing disruption. Manufacturing activities face business continuity risks from plant failures, supplier interruptions, and quality issues. Climate change impacts operations through wildfires, severe weather events, and extreme temperature fluctuations.",
+      "ground_truth": "The Group's operations involve energetic materials with inherent safety risks that could result in harm to employees, facility shutdowns, or manufacturing disruption. Manufacturing activities face business continuity risks from plant failures, supplier interruptions, and quality issues. Climate change impacts operations through wildfires, severe weather events, and extreme temperature fluctuations.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and meaning, with no discrepancies."
+    },
+    {
+      "id": "4.1.3",
+      "section": "Risk Factors - Financial Risks",
+      "submitted_answer": "The Group is exposed to financial risks including foreign exchange rate fluctuations and Group-specific risks. Specific financial risks could arise from operational disruption, strategic objective failures, or customer payment defaults.",
+      "ground_truth": "The Group is exposed to financial risks including foreign exchange rate fluctuations and Group-specific risks. Specific financial risks could arise from operational disruption, strategic objective failures, or customer payment defaults.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and meaning."
+    },
+    {
+      "id": "4.1.4",
+      "section": "Risk Factors - Compliance Risks",
+      "submitted_answer": "The Group operates in over 50 countries in a highly regulated environment, subject to applicable laws and regulations of each jurisdiction.",
+      "ground_truth": "The Group operates in over 50 countries in a highly regulated environment, subject to applicable laws and regulations of each jurisdiction.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in both content and wording."
+    },
+    {
+      "id": "5.1.1",
+      "section": "Board Composition - Name",
+      "submitted_answer": "[{\"Name\":\"Tony Wood\",\"Position\":\"Chairman\",\"Total Income (2024)\":\"£22,000\",\"Total Income (2023)\":\"N/A\"},{\"Name\":\"Michael Ord\",\"Position\":\"Group Chief Executive\",\"Total Income (2024)\":\"£2,303,000\",\"Total Income (2023)\":\"£1,866,000\"},{\"Name\":\"James Mortensen\",\"Position\":\"Chief Financial Officer\",\"Total Income (2024)\":\"£1,429,000\",\"Total Income (2023)\":\"N/A\"},{\"Name\":\"Sarah Ellard\",\"Position\":\"Group Legal Director & Company Secretary\",\"Total Income (2024)\":\"£1,147,000\",\"Total Income (2023)\":\"£917,000\"},{\"Name\":\"Alpna Amar\",\"Position\":\"Non-Executive Director\",\"Total Income (2024)\":\"£61,000\",\"Total Income (2023)\":\"£23,000\"},{\"Name\":\"Laurie Bowen\",\"Position\":\"Non-Executive Director\",\"Total Income (2024)\":\"£76,000\",\"Total Income (2023)\":\"£74,000\"},{\"Name\":\"Andrew Davies\",\"Position\":\"Senior Independent Non-Executive Director\",\"Total Income (2024)\":\"£71,000\",\"Total Income (2023)\":\"£69,000\"},{\"Name\":\"Stephen King\",\"Position\":\"Non-Executive Director\",\"Total Income (2024)\":\"£71,000\",\"Total Income (2023)\":\"£69,000\"},{\"Name\":\"Fiona MacAulay\",\"Position\":\"Non-Executive Director\",\"Total Income (2024)\":\"£61,000\",\"Total Income (2023)\":\"£59,000\"},{\"Name\":\"Carl-Peter Forster\",\"Position\":\"Non-Executive Chairman\",\"Total Income (2024)\":\"£224,000\",\"Total Income (2023)\":\"£215,000\"},{\"Name\":\"Andrew Lewis\",\"Position\":\"Chief Financial Officer\",\"Total Income (2024)\":\"£648,000\",\"Total Income (2023)\":\"£1,293,000\"}]",
+      "ground_truth": "Michael Ord",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer includes multiple names and positions, while the ground truth specifies only 'Michael Ord'. The answer does not match the requirement for a single name."
+    },
+    {
+      "id": "5.1.2",
+      "section": "Board Composition - Position",
+      "submitted_answer": null,
+      "ground_truth": "Group Chief Executive",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth specifies 'Group Chief Executive', which is completely missing."
+    },
+    {
+      "id": "5.1.3",
+      "section": "Board Composition - Total Income",
+      "submitted_answer": null,
+      "ground_truth": "£2,303,000",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth specifies a numeric value (£2,303,000)."
+    },
+    {
+      "id": "5.2.1",
+      "section": "Internal Controls - Risk assessment procedures",
+      "submitted_answer": "Uses \"Three Lines of Defence Methodology\" with quarterly business risk register updates, climate risk assessments using Munich Re Location Risk Intelligence Tool, and probability/impact matrix for risk evaluation.",
+      "ground_truth": "Uses \"Three Lines of Defence Methodology\" with quarterly business risk register updates, climate risk assessments using Munich Re Location Risk Intelligence Tool, and probability/impact matrix for risk evaluation",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and wording."
+    },
+    {
+      "id": "5.2.2",
+      "section": "Internal Controls - Control activities",
+      "submitted_answer": "Operational Framework with over 35 policies and procedures, Code of Conduct updated in November 2024, Chemring Compliance Portal for training and monitoring, annual Operational Assurance Statements required from all businesses.",
+      "ground_truth": "Operational Framework with over 35 policies and procedures, Code of Conduct updated in November 2024, Chemring Compliance Portal for training and monitoring, annual Operational Assurance Statements required from all businesses",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly with no discrepancies."
+    },
+    {
+      "id": "5.2.3",
+      "section": "Internal Controls - Monitoring mechanisms",
+      "submitted_answer": "With \"Three Lines of Defence Methodology\", the monitoring mechanisms involve self-monitoring by business units, direct oversight by corporate functions, and independent review through internal and external audits. Risk Management Committee meets at least three times a year, Board reviews Group risk register half-yearly with key risks reviewed at every Board meeting, annual internal control effectiveness review, internal audit program with thematic reviews.",
+      "ground_truth": "With \"Three Lines of Defence Methodology\", the monitoring mechanisms involve self-monitoring by business units, direct oversight by corporate functions, and independent review through internal and external audits. Risk Management Committee meets at least three times a year, Board reviews Group risk register half-yearly with key risks reviewed at every Board meeting, annual internal control effectiveness review, internal audit program with thematic reviews",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and structure, with no discrepancies."
+    },
+    {
+      "id": "5.2.4",
+      "section": "Internal Controls - Identified material weaknesses or deficiencies",
+      "submitted_answer": "No significant internal control failings or weaknesses were identified by KPMG during the year.",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer correctly states that no significant internal control failings or weaknesses were identified, which aligns with the ground truth being null (indicating no issues were reported)."
+    },
+    {
+      "id": "5.2.5",
+      "section": "Internal Controls - Improvements",
+      "submitted_answer": "Continued to promote Fundamental Safety Principles and SWIM process, enhanced HSE data collection and environmental performance data system, further reduced personnel exposure risk in process safety events, engaged additional external resources for capital investment programs, implemented additional IT and cyber-security standards, evolved and tested cyber incident response plans, reviewed succession and talent management programs, updated climate change risk assessment, incorporated thematic reviews in internal audit.",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "Both the submitted answer and the ground truth are empty, which meets the criteria for a score of 1."
+    },
+    {
+      "id": "5.2.6",
+      "section": "Internal Controls - Effectiveness",
+      "submitted_answer": "The Audit Committee takes the role of reviewing the effectiveness of the Group’s risk management framework and systems of internal control. Board confirms robust systems of internal control and risk management were in place throughout the year under review and remained in place up to date of approval of financial statements.",
+      "ground_truth": "The Audit Committee takes the role of reviewing the effectiveness of the Group’s risk management framework and systems of internal control. Board confirms robust systems of internal control and risk management were in place throughout the year under review and remained in place up to date of approval of financial statements",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly, with no differences in content or meaning."
+    },
+    {
+      "id": "6.1.1",
+      "section": "Strategic Direction - Mergers and acquisitions (M&A) to expand market share",
+      "submitted_answer": "Chemring is focused on value-enhancing acquisitions to accelerate growth, particularly in core and near-adjacent markets for its Roke and US Energetics businesses. The company is evaluating acquisition targets in the space and missile markets to generate shareholder value.",
+      "ground_truth": "Chemring is focused on value-enhancing acquisitions to accelerate growth, particularly in core and near-adjacent markets for its Roke and US Energetics businesses. The company is evaluating acquisition targets in the space and missile markets to generate shareholder value.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and wording."
+    },
+    {
+      "id": "6.1.2",
+      "section": "Strategic Direction - Acquire new technologies",
+      "submitted_answer": "Chemring is investing in new product development to ensure its product portfolio remains relevant to customers.",
+      "ground_truth": "Chemring is investing in new product development to ensure its product portfolio remains relevant to customers.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in wording and meaning."
+    },
+    {
+      "id": "6.1.3",
+      "section": "Strategic Direction - Potential for organizational restructuring",
+      "submitted_answer": "Chemring is refining its approach to talent management, resourcing, and development initiatives to support the evolution of its workforce for present and future needs. The company is also focusing on building a strong, high-quality, and technology-focused business.",
+      "ground_truth": "Chemring is refining its approach to talent management, resourcing, and development initiatives to support the evolution of its workforce for present and future needs. The company is also focusing on building a strong, high-quality, and technology-focused business.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and wording."
+    },
+    {
+      "id": "6.2.1",
+      "section": "Challenges and Uncertainties - Economic challenges such as inflation, recession risks, and shifting consumer behavior that could impact revenue and profitability.",
+      "submitted_answer": "The company faces inflationary cost increases, higher energy prices, foreign exchange rate movements, and interest rate increases as key financial risk indicators. Defense spending may be subject to downward pressure due to economic pressures.",
+      "ground_truth": "The company faces inflationary cost increases, higher energy prices, foreign exchange rate movements, and interest rate increases as key financial risk indicators. Defense spending may be subject to downward pressure due to economic pressures.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and detail, addressing the same economic challenges and uncertainties."
+    },
+    {
+      "id": "6.2.2",
+      "section": "Challenges and Uncertainties - Competitive pressures from both established industry players and new, disruptive market entrants that the company faces",
+      "submitted_answer": "The Group faces risks from emergence of new competitors and disruptive technologies, loss of production contracts, and failure to maintain positions on key future programs due to capability development issues. There are challenges in maintaining technological leadership and cost-effective manufacturing in competitive markets.",
+      "ground_truth": "The Group faces risks from emergence of new competitors and disruptive technologies, loss of production contracts, and failure to maintain positions on key future programs due to capability development issues. There are challenges in maintaining technological leadership and cost-effective manufacturing in competitive markets.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in content and wording, with no discrepancies."
+    },
+    {
+      "id": "6.3.1",
+      "section": "Innovation and Development Plans - R&D investments, with a focus on advancing technology, improving products, and creating new solutions to cater to market trends",
+      "submitted_answer": "Chemring continues to grow its advanced product and service offerings in sensors, communications, cyber and AI to deliver superior value to defense, national security and other customers.",
+      "ground_truth": "Chemring continues to grow its advanced product and service offerings in sensors, communications, cyber and AI to deliver superior value to defense, national security and other customers.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly, with no discrepancies."
+    },
+    {
+      "id": "6.3.2",
+      "section": "Innovation and Development Plans - New product launches, emphasizing the company’s commitment to continuously introducing differentiated products",
+      "submitted_answer": "Chemring is investing in technology and increasing capacity to serve growing demand in its defense and national security markets, targeting innovation where customer demand signals are strongest.",
+      "ground_truth": "Chemring is investing in technology and increasing capacity to serve growing demand in its defense and national security markets, targeting innovation where customer demand signals are strongest.",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly, with no discrepancies in content or meaning."
+    }
+  ]
+}

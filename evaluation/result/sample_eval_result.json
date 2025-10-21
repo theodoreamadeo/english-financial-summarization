@@ -1,0 +1,466 @@
+{
+  "overall_score": 0.188,
+  "section_scores": {
+    "1.1": 1.0,
+    "1.3": 0.6667,
+    "2.1": 0.25,
+    "2.2": 0.0909,
+    "2.3": 0.0,
+    "2.4": 0.0,
+    "2.5": 0.0,
+    "3.1": 0.0,
+    "5.1": 0.4667
+  },
+  "items": [
+    {
+      "id": "1.1.1_company_name",
+      "question": "Company Name",
+      "submitted_answer": "NVIDIA Corporation",
+      "ground_truth": "NVIDIA Corporation",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly."
+    },
+    {
+      "id": "1.1.2_establishment_date",
+      "question": "Establishment Date",
+      "submitted_answer": "April 1993 (Reincorporated in Delaware in April 1998)",
+      "ground_truth": "April 1993",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer correctly identifies the establishment date as April 1993, which matches the ground truth."
+    },
+    {
+      "id": "1.1.3_hq_location",
+      "question": "Headquarters Location (City and Country)",
+      "submitted_answer": "Santa Clara, California, USA",
+      "ground_truth": "Santa Clara, California, USA",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in terms of city, state, and country."
+    },
+    {
+      "id": "1.3.1_mission",
+      "question": "Mission Statement",
+      "submitted_answer": "\"Pioneered accelerated computing to solve challenging computational problems\"",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer provides a clear and concise mission statement that aligns with the concept of accelerated computing, which is a valid interpretation of a mission statement."
+    },
+    {
+      "id": "1.3.2_vision",
+      "question": "Vision Statement",
+      "submitted_answer": "\"Create computing platforms for AI, metaverse, and autonomous systems\"",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer provides a clear vision statement related to computing platforms, which aligns with the general concept of a vision statement, even though the ground truth is null."
+    },
+    {
+      "id": "1.3.3_core_value",
+      "question": "Core Value",
+      "submitted_answer": "Innovation, Performance, Ecosystem Development",
+      "ground_truth": "Innovation is at our core.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer lists multiple core values, while the ground truth specifies that 'Innovation is at our core,' indicating a singular focus on innovation."
+    },
+    {
+      "id": "2.1.1_revenue",
+      "question": "Revenue",
+      "submitted_answer": "60,922",
+      "ground_truth": "60922",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer matches the ground truth exactly in value, with no discrepancies in numeric representation."
+    },
+    {
+      "id": "2.1.2_cogs",
+      "question": "Cost of Goods Sold (COGS)",
+      "submitted_answer": "25,640",
+      "ground_truth": "16621",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 25,640 does not match the ground truth of 16,621, and the values are significantly different."
+    },
+    {
+      "id": "2.1.3_gross_profit",
+      "question": "Gross Profit",
+      "submitted_answer": "35,282",
+      "ground_truth": "44301",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 35,282 does not match the ground truth of 44,301, and the difference is significant."
+    },
+    {
+      "id": "2.1.4_opex",
+      "question": "Operating Expenses",
+      "submitted_answer": "22,321",
+      "ground_truth": "11329",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 22,321 does not match the ground truth of 11,329, and is significantly different in value."
+    },
+    {
+      "id": "2.1.5_op_income",
+      "question": "Operating Income",
+      "submitted_answer": "12,961",
+      "ground_truth": "32972",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 12,961 does not match the ground truth of 32,972, indicating a significant discrepancy in the value."
+    },
+    {
+      "id": "2.1.6_net_income",
+      "question": "Net Income",
+      "submitted_answer": "29,760",
+      "ground_truth": "29760",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '29,760' is equivalent to the ground truth '29760' when considering numeric formatting, thus both represent the same value."
+    },
+    {
+      "id": "2.1.7_income_before_taxes",
+      "question": "Income before income taxes",
+      "submitted_answer": "12,290",
+      "ground_truth": "33818",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 12,290 is significantly different from the ground truth of 33,818, indicating a complete mismatch in the values."
+    },
+    {
+      "id": "2.1.8_income_tax_expense",
+      "question": "Income tax expense (benefit)",
+      "submitted_answer": "1,780",
+      "ground_truth": "4058",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 1,780 is significantly different from the ground truth of 4,058, indicating a complete mismatch in the reported income tax expense."
+    },
+    {
+      "id": "2.2.1_total_assets",
+      "question": "Total Assets",
+      "submitted_answer": "65,982",
+      "ground_truth": "65728",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer (65,982) does not match the ground truth (65,728) and exceeds the acceptable numeric tolerance."
+    },
+    {
+      "id": "2.2.2_current_assets",
+      "question": "Current Assets",
+      "submitted_answer": "44,073",
+      "ground_truth": "44345",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer (44,073) does not match the ground truth (44,345) and is outside the acceptable numeric tolerance."
+    },
+    {
+      "id": "2.2.3_non_current_assets",
+      "question": "Non-Current Assets",
+      "submitted_answer": "21,909",
+      "ground_truth": "21383",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer (21,909) does not match the ground truth (21,383) and is significantly different."
+    },
+    {
+      "id": "2.2.4_total_liabilities",
+      "question": "Total Liabilities",
+      "submitted_answer": "15,302",
+      "ground_truth": "22750",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 15,302 does not match the ground truth of 22,750, and is significantly different in value."
+    },
+    {
+      "id": "2.2.5_current_liabilities",
+      "question": "Current Liabilities",
+      "submitted_answer": null,
+      "ground_truth": "10631",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth value of 10631 is present."
+    },
+    {
+      "id": "2.2.6_non_current_liabilities",
+      "question": "Non-Current Liabilities",
+      "submitted_answer": null,
+      "ground_truth": "12119",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth value of 12119 is present and required."
+    },
+    {
+      "id": "2.2.7_shareholders_equity",
+      "question": "Shareholders' Equity",
+      "submitted_answer": "50,680",
+      "ground_truth": "42978",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 50,680 does not match the ground truth of 42,978, and is significantly different in value."
+    },
+    {
+      "id": "2.2.8_retained_earnings",
+      "question": "Retained Earnings",
+      "submitted_answer": null,
+      "ground_truth": "29817",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth value of 29817 is present."
+    },
+    {
+      "id": "2.2.9_total_equity_and_liab",
+      "question": "Total Equity and Liabilities",
+      "submitted_answer": null,
+      "ground_truth": "65728",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth value of 65728 is present."
+    },
+    {
+      "id": "2.2.10_inventories",
+      "question": "Inventories",
+      "submitted_answer": "5,282",
+      "ground_truth": "5282",
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "The submitted answer '5,282' is equivalent to the ground truth '5282' as they represent the same numeric value."
+    },
+    {
+      "id": "2.2.11_prepaid_expenses",
+      "question": "Prepaid Expenses",
+      "submitted_answer": null,
+      "ground_truth": "3080",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth value of 3080 is present."
+    },
+    {
+      "id": "2.3.1_cfo",
+      "question": "Net Cash Flow from Operations",
+      "submitted_answer": "28,483",
+      "ground_truth": "28090",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 28,483 is not equal to the ground truth of 28,090, and the difference exceeds the allowed tolerance."
+    },
+    {
+      "id": "2.3.2_cfi",
+      "question": "Net Cash Flow from Investing",
+      "submitted_answer": "(6,110)",
+      "ground_truth": "-10566",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of (6,110) does not match the ground truth of -10566, both in value and sign."
+    },
+    {
+      "id": "2.3.3_cff",
+      "question": "Net Cash Flow from Financing",
+      "submitted_answer": "(16,998)",
+      "ground_truth": "-13633",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of (16,998) does not match the ground truth of -13633; the signs and values are incorrect."
+    },
+    {
+      "id": "2.3.4_net_change_in_cash",
+      "question": "Net Increase/Decrease in Cash",
+      "submitted_answer": "5,375",
+      "ground_truth": "3891",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 5,375 does not match the ground truth of 3,891, and the difference is significant."
+    },
+    {
+      "id": "2.3.5_dividends",
+      "question": "Dividends",
+      "submitted_answer": "(1,012)",
+      "ground_truth": "-395",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of (1,012) is incorrect as it does not match the ground truth of -395, both in value and sign."
+    },
+    {
+      "id": "2.4.1_gross_margin",
+      "question": "Gross Margin = (Revenue − COGS) ÷ Revenue",
+      "submitted_answer": "57.9%",
+      "ground_truth": "72.71%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 57.9% does not match the ground truth of 72.71%, indicating a significant discrepancy in the calculation of Gross Margin."
+    },
+    {
+      "id": "2.4.2_operating_margin",
+      "question": "Operating Margin = Operating Income ÷ Revenue",
+      "submitted_answer": "21.3%",
+      "ground_truth": "54.12%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 21.3% is significantly different from the ground truth of 54.12%, indicating a complete mismatch in the calculation of Operating Margin."
+    },
+    {
+      "id": "2.4.3_net_profit_margin",
+      "question": "Net Profit Margin = Net Income ÷ Revenue",
+      "submitted_answer": "48.9%",
+      "ground_truth": "48.85%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 48.9% is not within the acceptable tolerance of the ground truth value of 48.85%."
+    },
+    {
+      "id": "2.4.4_current_ratio",
+      "question": "Current Ratio = Current Assets ÷ Current Liabilities",
+      "submitted_answer": "2.98",
+      "ground_truth": "417.13%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 2.98 does not match the ground truth of 417.13%, which indicates a significant discrepancy in the calculation of the current ratio."
+    },
+    {
+      "id": "2.4.5_quick_ratio",
+      "question": "Quick Ratio = (Current Assets − Inventories − Prepaid expenses) ÷ Current Liabilities",
+      "submitted_answer": null,
+      "ground_truth": "338.47%",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth provides a specific value of 338.47%."
+    },
+    {
+      "id": "2.4.6_interest_coverage",
+      "question": "Interest Coverage = Operating Income ÷ Interest Expense",
+      "submitted_answer": null,
+      "ground_truth": "12,829.57%",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth provides a specific value of 12,829.57%."
+    },
+    {
+      "id": "2.4.7_asset_turnover",
+      "question": "Asset Turnover = Revenue ÷ Average Total Assets",
+      "submitted_answer": null,
+      "ground_truth": "113.97%",
+      "score": 0.0,
+      "verdict": "Missing",
+      "reasoning": "The submitted answer is null, while the ground truth provides a specific value of 113.97%."
+    },
+    {
+      "id": "2.4.8_debt_to_equity",
+      "question": "Debt-to-Equity = Total Liabilities ÷ Shareholders’ Equity",
+      "submitted_answer": "0.30",
+      "ground_truth": "52.93%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 0.30 does not match the ground truth of 52.93%, indicating a significant discrepancy in the calculation of the Debt-to-Equity ratio."
+    },
+    {
+      "id": "2.4.9_roe",
+      "question": "Return on Equity (RoE) = Net Income ÷ Average Shareholders’ Equity",
+      "submitted_answer": "58.7%",
+      "ground_truth": "91.46%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 58.7% does not match the ground truth of 91.46% for Return on Equity (RoE)."
+    },
+    {
+      "id": "2.4.10_roa",
+      "question": "Return on Assets (RoA) = Net Income ÷ Average Total Assets",
+      "submitted_answer": "45.1%",
+      "ground_truth": "55.67%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 45.1% does not match the ground truth of 55.67%, indicating a significant discrepancy in the calculation of Return on Assets."
+    },
+    {
+      "id": "2.4.11_effective_tax_rate",
+      "question": "Effective Tax Rate = Income tax expense (benefit) ÷ Income before income taxes",
+      "submitted_answer": "14.5%",
+      "ground_truth": "12.00%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 14.5% does not match the ground truth of 12.00%, and the difference is significant."
+    },
+    {
+      "id": "2.4.12_dividend_payout_ratio",
+      "question": "Dividend Payout Ratio = Dividends ÷ Net Income",
+      "submitted_answer": "3.4%",
+      "ground_truth": "1.33%",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 3.4% is incorrect compared to the ground truth of 1.33%. The values do not match, and the calculation is not accurate."
+    },
+    {
+      "id": "2.5.1_rev_by_product",
+      "question": "Revenue by Product/Service: What is the revenue breakdown by product/service?",
+      "submitted_answer": "Data Center: 47,562; Gaming: 10,447; Professional Visualization: 1,518; Automotive: 1,095",
+      "ground_truth": "Compute & Networking: $47,405M; Graphics: $13,517M; Total: $60,922M",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not match the ground truth in terms of product categories, numeric values, or units. The categories and figures provided are entirely different from those in the ground truth."
+    },
+    {
+      "id": "2.5.2_rev_by_region",
+      "question": "Revenue by Geographic Region: What is the revenue breakdown by geographic region?",
+      "submitted_answer": "United States: 26,152; Taiwan: 14,876; China: 10,328; Other: 9,566",
+      "ground_truth": "United States: $26,966M; Taiwan: $13,405M; China (incl. HK): $10,306M; Other: $10,245M",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer contains incorrect revenue figures for all regions compared to the ground truth, and the units are not consistent (missing 'M' for millions)."
+    },
+    {
+      "id": "3.1.1_rev_cost_dynamics",
+      "question": "Revenue & Direct-Cost Dynamics (use key metrics: Revenue Growth ; Gross Margin; Revenue by Product/Service; Revenue by Geographic Region)",
+      "submitted_answer": "126% YoY growth driven by AI boom (Data Center +213%). Gross Margin: 57.9%. Data Center: 47,562; Gaming: 10,447; United States: 26,152; Taiwan: 14,876; China: 10,328; Other: 9,566",
+      "ground_truth": "Revenue experienced dramatic growth from 2022-2024, increasing 126% from 2022-2024, with the most significant jump occurring in 2024 (126% increase from 2023). This growth was primarily driven by the Compute & Networking segment, which became the dominant revenue driver, growing from $11,046M in 2022 to $47,405M in 2024. Graphics revenue declined from $15,868M in 2022 to $11,906M in 2023 but recovered to $13,517M in 2024. Geographically, the US became the largest market, growing from $4,349M in 2022 to $26,966M in 2024. Gross margin improved significantly to 72.72% in 2024 from 56.92% in 2023, though it remained below the 2022 level of 64.95%. The margin improvement in 2024 reflects better cost management and product mix optimization despite higher absolute costs.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer incorrectly states the gross margin as 57.9% instead of the ground truth of 72.72%. Additionally, the revenue figures by product/service and geographic region do not match the ground truth values, and the explanation of revenue growth lacks the context of the Compute & Networking segment and the decline and recovery of Graphics revenue."
+    },
+    {
+      "id": "3.1.2_operating_efficiency",
+      "question": "Operating Efficiency (key metric: Operating Margin)",
+      "submitted_answer": "21.3%",
+      "ground_truth": "Operating efficiency showed remarkable improvement, with operating margin reaching 54.13% in 2024, a substantial increase from 15.66% in 2023, and higher than 37.32% achieved in 2022. The 2023 decline to 15.66% represented a significant efficiency challenge, but the company demonstrated strong operational leverage in 2024.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer of 21.3% is incorrect as the ground truth states the operating margin reached 54.13% in 2024."
+    },
+    {
+      "id": "3.1.3_external_one_off",
+      "question": "External & One-Off Impact (key metrics: Effective Tax Rate, Non-Recurring Items)",
+      "submitted_answer": "Effective Tax Rate: 14.5%",
+      "ground_truth": "The effective tax rate showed significant variation across the period, moving from 1.90% in 2022 to -4.47% in 2023 (indicating a tax benefit), and then to 12.00% in 2024. The negative tax rate in 2023 provided a one-time benefit to profitability, with the company receiving a tax benefit of $187M despite having pre-tax income of $4,181M. In 2024, the normalization of the tax rate to 12.00% represented a more typical tax burden, with tax expense of $4,058M on pre-tax income of $33,818M. This tax normalization had a moderating effect on net profit growth compared to the exceptional 2023 tax benefit.",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer provides a single effective tax rate of 14.5%, which does not match the ground truth values of 1.90% in 2022, -4.47% in 2023, and 12.00% in 2024. Additionally, it lacks the context of the significant variation and the one-time tax benefit mentioned in the ground truth."
+    },
+    {
+      "id": "5.1.1_board_name",
+      "question": "Board Composition - Name",
+      "submitted_answer": "[\"Jensen Huang\", \"Colette Kress\", \"Timothy Teter\"]",
+      "ground_truth": "Jen-Hsun Huang; Colette M. Kress; Ajay K. Puri; Debora Shoquist; Timothy S. Teter",
+      "score": 0.4,
+      "verdict": "Partially Correct",
+      "reasoning": "The submitted answer includes two correct names (Colette Kress and Timothy Teter) but misses three others (Ajay K. Puri, Debora Shoquist) and has a name (Jensen Huang) that is not fully accurate as it should be 'Jen-Hsun Huang'."
+    },
+    {
+      "id": "5.1.2_board_position",
+      "question": "Board Composition - Position",
+      "submitted_answer": "[\"CEO\", \"CFO\", \"General Counsel\"]",
+      "ground_truth": "President and Chief Executive Officer; Executive Vice President and Chief Financial Officer; Executive Vice President, Worldwide Field Operations; Executive Vice President, Operations; Executive Vice President and General Counsel",
+      "score": 0.0,
+      "verdict": "Incorrect",
+      "reasoning": "The submitted answer does not match the ground truth in terms of titles and completeness. The ground truth includes specific titles such as 'President and Chief Executive Officer' and 'Executive Vice President' which are not present in the submitted answer."
+    },
+    {
+      "id": "5.1.3_board_total_income",
+      "question": "Board Composition - Total Income",
+      "submitted_answer": "[34.2, 13.8, 11.2]",
+      "ground_truth": null,
+      "score": 1.0,
+      "verdict": "Correct",
+      "reasoning": "Both the submitted answer and ground truth are empty, which results in a score of 1."
+    }
+  ]
+}

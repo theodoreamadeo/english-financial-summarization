@@ -1,0 +1,1 @@
+py evaluation\report_evaluator.py  --groundtruth data\sample\Markdown\sample002.md   --generated output\Chemring_report.md  --provider openai --model "gpt-4o-mini"   --out-json result/chemring.json  --out-md result/chemring.md
